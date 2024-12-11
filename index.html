@@ -27,6 +27,15 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
+  <!-- React -->
+  <script src="build/react.development.js"></script>
+  <script src="build/react-dom.development.js"></script>
+  <script src="build/babel.min.js"></script>
+
+  <!-- for list -->
+  <script type="text/babel" src="data/sponsors.js"></script>
+  <script type="text/babel" src="assets/js/sponsor_list.js"></script>  <!-- for render -->
+
   <!-- =======================================================
   * Template Name: Append
   * Template URL: https://bootstrapmade.com/append-bootstrap-website-template/
@@ -49,13 +58,13 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html#hero" class="active">Home</a></li>
+          <li><a href="index.html#home" class="active">Home</a></li>
           <li><a href="index.html#about">About</a></li>
-          <li><a href="index.html#services">Services</a></li>
-          <li><a href="index.html#portfolio">Portfolio</a></li>
-          <li><a href="index.html#pricing">Pricing</a></li>
+          <li><a href="index.html#publications">Publications</a></li>
+          <li><a href="index.html#portfolio">Projects</a></li>
+          <!-- <li><a href="index.html#pricing">Pricing</a></li> -->
           <li><a href="index.html#team">Team</a></li>
-          <li><a href="blog.html">Blog</a></li>
+          <!-- <li><a href="blog.html">Blog</a></li> -->
           <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>
@@ -78,7 +87,7 @@
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="index.html#about">Get Started</a>
+      <a class="btn-getstarted" href="index.html#about">About us</a>
 
     </div>
   </header>
@@ -86,7 +95,7 @@
   <main class="main">
 
     <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
+    <section id="home" class="hero section dark-background">
 
       <img src="assets/img/welcome-img.png" alt="" data-aos="fade-in">
 
@@ -96,14 +105,14 @@
             <h2 data-aos="fade-up" data-aos-delay="100">Mobile Sensing and Ubiquitous Computing Laboratory</h2>
             <p data-aos="fade-up" data-aos-delay="200">We are a group of AI-for-Health researchers led by Dr. Tauhidur Rahman.</p>
           </div>
-          <div class="col-lg-5" data-aos="fade-up" data-aos-delay="300">
+          <!-- <div class="col-lg-5" data-aos="fade-up" data-aos-delay="300">
             <form action="forms/newsletter.php" method="post" class="php-email-form">
               <div class="sign-up-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
               <div class="loading">Loading</div>
               <div class="error-message"></div>
               <div class="sent-message">Your subscription request has been sent. Thank you!</div>
             </form>
-          </div>
+          </div> -->
         </div>
       </div>
 
@@ -112,35 +121,36 @@
     <!-- Clients Section -->
     <section id="clients" class="clients section">
 
-      <div class="container" data-aos="fade-up">
-
-        <div class="row gy-4">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Sponsors and Collaborators</h2>
+        <div id="sponsor_list"></div>
+        <!-- <div class="row gy-4" id="sponsor_list">
 
           <div class="col-xl-2 col-md-3 col-6 client-logo">
             <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
+          </div>
 
           <div class="col-xl-2 col-md-3 col-6 client-logo">
             <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
+          </div>
 
           <div class="col-xl-2 col-md-3 col-6 client-logo">
             <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
+          </div>
 
           <div class="col-xl-2 col-md-3 col-6 client-logo">
             <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
+          </div>
 
           <div class="col-xl-2 col-md-3 col-6 client-logo">
             <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
+          </div>
 
           <div class="col-xl-2 col-md-3 col-6 client-logo">
             <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
-          </div><!-- End Client Item -->
+          </div> 
 
-        </div>
+        </div> -->
 
       </div>
 
@@ -154,8 +164,8 @@
 
           <div class="col-xl-5 content">
             <h3>About Us</h3>
-            <h2>Ducimus rerum libero reprehenderit cumque</h2>
-            <p>Ipsa sint sit. Quis ducimus tempore dolores impedit et dolor cumque alias maxime. Enim reiciendis minus et rerum hic non. Dicta quas cum quia maiores iure. Quidem nulla qui assumenda incidunt voluptatem tempora deleniti soluta.</p>
+            <h2>Mobile Sensing and Ubiquitous Computing Laboratory</h2>
+            <p>We develop innovative health sensing technologies to translate physical signals into practical insights for better health understanding.</p>
             <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
           </div>
 
@@ -165,32 +175,32 @@
               <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
                 <div class="icon-box">
                   <i class="bi bi-buildings"></i>
-                  <h3>Eius provident</h3>
-                  <p>Magni repellendus vel ullam hic officia accusantium ipsa dolor omnis dolor voluptatem</p>
+                  <h3>Who we are</h3>
+                  <p>We are a team of AI-for-Health researchers led by Prof. Tauhidur Rahman, affiliated with UC San Diego's Halıcıoğlu Data Science Institute and UMass Amherst's Manning College of Information & Computer Science.</p>
                 </div>
               </div> <!-- End Icon Box -->
 
               <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
                 <div class="icon-box">
                   <i class="bi bi-clipboard-pulse"></i>
-                  <h3>Rerum aperiam</h3>
-                  <p>Autem saepe animi et aut aspernatur culpa facere. Rerum saepe rerum voluptates quia</p>
+                  <h3>Research Interest</h3>
+                <p>We explore novel health sensing technologies that transform acoustic and electromagnetic signals from the body and environment into actionable biological and behavioral insights.</p>
                 </div>
               </div> <!-- End Icon Box -->
 
               <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
                 <div class="icon-box">
                   <i class="bi bi-command"></i>
-                  <h3>Veniam omnis</h3>
-                  <p>Omnis perferendis molestias culpa sed. Recusandae quas possimus. Quod consequatur corrupti</p>
+                  <h3>Lab Culture</h3>
+                  <p>We foster a collaborative, inclusive, and innovation-driven lab culture that values curiosity and interdisciplinary thinking.</p>
                 </div>
               </div> <!-- End Icon Box -->
 
               <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
                 <div class="icon-box">
                   <i class="bi bi-graph-up-arrow"></i>
-                  <h3>Delares sapiente</h3>
-                  <p>Sint et dolor voluptas minus possimus nostrum. Reiciendis commodi eligendi omnis quideme lorenda</p>
+                  <h3>Our Vision</h3>
+                  <p>We aim to advance ubiquitous and mobile health sensing to improve lives and revolutionize healthcare accessibility worldwide.</p>
                 </div>
               </div> <!-- End Icon Box -->
 
@@ -213,29 +223,29 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Clients</p>
+              <span data-purecounter-start="0" data-purecounter-end="42" data-purecounter-duration="1" class="purecounter"></span>
+              <p>TBD</p>
             </div>
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Projects</p>
+              <span data-purecounter-start="0" data-purecounter-end="42" data-purecounter-duration="1" class="purecounter"></span>
+              <p>TBD</p>
             </div>
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Hours Of Support</p>
+              <span data-purecounter-start="0" data-purecounter-end="42" data-purecounter-duration="1" class="purecounter"></span>
+              <p>TBD</p>
             </div>
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Workers</p>
+              <span data-purecounter-start="0" data-purecounter-end="42" data-purecounter-duration="1" class="purecounter"></span>
+              <p>TBD</p>
             </div>
           </div><!-- End Stats Item -->
 
@@ -246,11 +256,11 @@
     </section><!-- /Stats Section -->
 
     <!-- Services Section -->
-    <section id="services" class="services section">
+    <section id="publications" class="services section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Services</h2>
+        <h2>Publications</h2>
         <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
       </div><!-- End Section Title -->
 
@@ -494,13 +504,14 @@
     </section><!-- /Portfolio Section -->
 
     <!-- Pricing Section -->
-    <section id="pricing" class="pricing section">
+    <!-- <section id="pricing" class="pricing section">
 
-      <!-- Section Title -->
+       Section Title 
       <div class="container section-title" data-aos="fade-up">
         <h2>Pricing</h2>
         <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
+      </div>
+       End Section Title 
 
       <div class="container" data-aos="zoom-in" data-aos-delay="100">
 
@@ -522,7 +533,8 @@
               </ul>
               <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
             </div>
-          </div><!-- End Pricing Item -->
+          </div>
+          End Pricing Item
 
           <div class="col-lg-4">
             <div class="pricing-item featured">
@@ -541,7 +553,8 @@
               </ul>
               <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
             </div>
-          </div><!-- End Pricing Item -->
+          </div>
+          End Pricing Item
 
           <div class="col-lg-4">
             <div class="pricing-item">
@@ -559,13 +572,15 @@
               </ul>
               <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
             </div>
-          </div><!-- End Pricing Item -->
+          </div>
+          End Pricing Item
 
         </div>
 
       </div>
 
-    </section><!-- /Pricing Section -->
+    </section> -->
+    <!-- /Pricing Section -->
 
     <!-- Faq Section -->
     <section id="faq" class="faq section">
@@ -757,7 +772,7 @@
     </section><!-- /Team Section -->
 
     <!-- Call To Action Section -->
-    <section id="call-to-action" class="call-to-action section dark-background">
+    <!-- <section id="call-to-action" class="call-to-action section dark-background">
 
       <img src="assets/img/cta-bg.jpg" alt="">
 
@@ -773,10 +788,11 @@
         </div>
       </div>
 
-    </section><!-- /Call To Action Section -->
+    </section> -->
+    <!-- /Call To Action Section -->
 
     <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section light-background">
+    <!-- <section id="testimonials" class="testimonials section light-background">
 
       <div class="container">
 
@@ -828,7 +844,8 @@
                       <i class="bi bi-quote quote-icon-right"></i>
                     </p>
                   </div>
-                </div><!-- End testimonial item -->
+                </div>
+                 End testimonial item
 
                 <div class="swiper-slide">
                   <div class="testimonial-item">
@@ -848,7 +865,8 @@
                       <i class="bi bi-quote quote-icon-right"></i>
                     </p>
                   </div>
-                </div><!-- End testimonial item -->
+                </div>
+                 End testimonial item
 
                 <div class="swiper-slide">
                   <div class="testimonial-item">
@@ -868,7 +886,8 @@
                       <i class="bi bi-quote quote-icon-right"></i>
                     </p>
                   </div>
-                </div><!-- End testimonial item -->
+                </div>
+                End testimonial item
 
                 <div class="swiper-slide">
                   <div class="testimonial-item">
@@ -888,7 +907,8 @@
                       <i class="bi bi-quote quote-icon-right"></i>
                     </p>
                   </div>
-                </div><!-- End testimonial item -->
+                </div>
+                End testimonial item
 
                 <div class="swiper-slide">
                   <div class="testimonial-item">
@@ -908,7 +928,8 @@
                       <i class="bi bi-quote quote-icon-right"></i>
                     </p>
                   </div>
-                </div><!-- End testimonial item -->
+                </div>
+                End testimonial item
 
               </div>
               <div class="swiper-pagination"></div>
@@ -920,7 +941,8 @@
 
       </div>
 
-    </section><!-- /Testimonials Section -->
+    </section> -->
+    <!-- /Testimonials Section -->
 
     <!-- Recent Posts Section -->
     <section id="recent-posts" class="recent-posts section">
