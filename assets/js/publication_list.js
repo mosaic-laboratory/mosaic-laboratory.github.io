@@ -33,7 +33,7 @@ class PublicationList extends React.Component {
           // Render the publications for that year
           groupedByYear[year].forEach((publication, index) => {
             list.push(
-              <div className="publication-row" id={index} key={index} data-aos="fade-up" data-aos-delay={index * 100}>
+              <div className="publication-row" id={index} key={index} data-aos="fade-up" data-aos-delay={index * 20}>
                 {/* Optional image on the left */}
                 {publication.image && (
                   <div className="publication-image">

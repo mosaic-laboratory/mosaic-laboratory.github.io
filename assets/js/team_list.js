@@ -20,7 +20,7 @@ class TeamList extends React.Component {
                         <div
                             className="col-lg-4 col-md-6 member"
                             data-aos="fade-up"
-                            data-aos-delay={(index + 1) * 100}
+                            data-aos-delay={(index + 1) * 20}
                             key={name}
                         >
                             <div className="member-img">
