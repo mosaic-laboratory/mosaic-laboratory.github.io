@@ -75,5 +75,5 @@ class TeamList extends React.Component {
 // Mount the TeamList component to the DOM
 ReactDOM.render(
     <TeamList />,
-    document.getElementById('team') // Ensure this matches the placeholder ID in your HTML
+    document.getElementById('teamlist') // Ensure this matches the placeholder ID in your HTML
 );
