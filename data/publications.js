@@ -1,5 +1,45 @@
 // slide, video, etc.
 var publication_list = {
+    'playlogue2024': {
+        'title': "Playlogue: Dataset and Benchmarks for Analyzing Adult-Child Conversations During Play",
+        'authors': "Manasa Kalanadhabhatta, Mohammad Mehdi Rastikerdar, Tauhidur Rahman, Adam S Grabell, Deepak Ganesan",
+        'venue': "IMWUT 2024",
+        'year': 2024,
+        'paper_pdf': "https://dl.acm.org/doi/abs/10.1145/3699775",
+        "image": "/assets/img/welcome-img.png"
+    },
+    'covid192024': {
+        'title': "Syndromic Surveillance of Population-Level COVID-19 Burden with Cough Monitoring in a Hospital Emergency Waiting Room",
+        'authors': "Forsad Al Hossain, Tanjid Hasan Tonmoy, Sri Nuvvula, Brittany P Chapman, Rajesh K Gupta, Andrew Lover, Rhoel Dinglasan, Stephanie Carreiro, Tauhidur Rahman",
+        'venue': "Frontiers in Public Health",
+        'year': 2024,
+        'paper_pdf': "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2024.1279392/full",
+        "image": "/assets/img/welcome-img.png"
+    },
+    'nerf2024': {
+        'title': "NeRF-enabled Analysis-Through-Synthesis for ISAR Imaging of Small Everyday Objects with Sparse and Noisy UWB Radar Data",
+        'authors': "Md Farhan Tasnim Oshim, Albert Reed, Suren Jayasuriya, Tauhidur Rahman",
+        'venue': "IROS 2024",
+        'year': 2024,
+        'paper_pdf': "https://arxiv.org/abs/2410.10085",
+        "image": "/assets/img/welcome-img.png"
+    },
+    'v2ce2024': {
+        'title': "V2CE: Video to Continuous Events Simulator",
+        'authors': "Zhongyang Zhang, Shuyang Cui, Kaidong Chai, Haowen Yu, Subhasis Dasgupta, Upal Mahbub, Tauhidur Rahman",
+        'venue': "ICRA 2024",
+        'year': 2024,
+        'paper_pdf': "https://ieeexplore.ieee.org/abstract/document/10609864",
+        "image": "/assets/img/welcome-img.png"
+    },
+    'pharmacokinetics2024': {
+        'title': "Pharmacokinetics-Informed Neural Network for Predicting Opioid Administration Moments with Wearable Sensors",
+        'authors': "Bhanu Teja Gullapalli, Stephanie Carreiro, Brittany P Chapman, Eric L Garland, Tauhidur Rahman",
+        'venue': "AAAI 2024",
+        'year': 2024,
+        'paper_pdf': "https://ojs.aaai.org/index.php/AAAI/article/view/30326",
+        "image": "/assets/img/welcome-img.png"
+    },
     'studentstress2024': {
         'title': "Dynamic clustering via branched deep learning enhances personalization of stress prediction from mobile sensor data",
         'authors': "Yunfei Luo,  Iman Deznabi, Abhinav Shaw, Natcha Simsiri, Tauhidur Rahman, Madalina Fiterau",

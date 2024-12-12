@@ -25,7 +25,8 @@ class ProjectList extends React.Component {
                         <div className="post-meta">
                         <p className="post-author">{project_list[item]["summary"]}</p>
                         <p className="post-date">
-                            <time datetime="2022-01-01">Jan 1, 2022</time>
+                            {project_list[item]["status"]}
+                            {/* <time datetime="2022-01-01">{project_list[item]["status"]}</time> */}
                         </p>
                         </div>
                     </div>
