@@ -23,6 +23,11 @@ class PublicationList extends React.Component {
         const list = [];
 
         const years = Object.keys(groupedByYear).sort((a, b) => b - a);
+        console.log(years);
+        if (window.last_year_only) {
+          years.length = 1;  // Keep only the first item
+          // console.log(years);
+        }
 
         years.forEach(year => {
           // Add a title for the year

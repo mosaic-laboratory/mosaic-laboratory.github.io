@@ -35,10 +35,14 @@
   <!-- Data for Lists -->
   <script type="text/babel" src="data/sponsors.js"></script>
   <script type="text/babel" src="data/members.js"></script> 
+  <script type="text/babel" src="data/projects.js"></script> 
+  <script type="text/babel" src="data/publications.js"></script>
 
   <!-- Render Logic -->
   <script type="text/babel" src="assets/js/sponsor_list.js"></script> 
   <script type="text/babel" src="assets/js/team_list.js"></script>
+  <script type="text/babel" src="assets/js/project_list.js"></script>
+  <script type="text/babel" src="assets/js/publication_list.js"></script>
 
   <!-- =======================================================
   * Template Name: Append
@@ -65,8 +69,8 @@
           <li><a href="index.html#home" class="active">Home</a></li>
           <li><a href="index.html#about">About</a></li>
           <li><a href="index.html#projects">Projects</a></li>
-          <!-- <li><a href="index.html#publications">Publications</a></li> -->
-          <li><a href="publications.html">Publications</a></li>
+          <li><a href="index.html#publications">Publications</a></li>
+          <!-- <li><a href="publications.html">Publications</a></li> -->
           <!-- <li><a href="index.html#pricing">Pricing</a></li> -->
           <li><a href="index.html#team">Team</a></li>
           <!-- <li><a href="blog.html">Blog</a></li> -->
@@ -189,144 +193,30 @@
       </div><!-- End Section Title -->
 
       <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <article>
-
-              <div class="post-img">
-                <img src="assets/img/blog/blog-1.jpg" alt="" class="img-fluid">
-              </div>
-
-              <p class="post-category">Politics</p>
-
-              <h2 class="title">
-                <a href="blog-details.html">Dolorum optio tempore voluptas dignissimos</a>
-              </h2>
-
-              <div class="d-flex align-items-center">
-                <img src="assets/img/blog/blog-author.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
-                <div class="post-meta">
-                  <p class="post-author">Maria Doe</p>
-                  <p class="post-date">
-                    <time datetime="2022-01-01">Jan 1, 2022</time>
-                  </p>
-                </div>
-              </div>
-
-            </article>
-          </div><!-- End post list item -->
-
-          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <article>
-
-              <div class="post-img">
-                <img src="assets/img/blog/blog-2.jpg" alt="" class="img-fluid">
-              </div>
-
-              <p class="post-category">Sports</p>
-
-              <h2 class="title">
-                <a href="blog-details.html">Nisi magni odit consequatur autem nulla dolorem</a>
-              </h2>
-
-              <div class="d-flex align-items-center">
-                <img src="assets/img/blog/blog-author-2.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
-                <div class="post-meta">
-                  <p class="post-author">Allisa Mayer</p>
-                  <p class="post-date">
-                    <time datetime="2022-01-01">Jun 5, 2022</time>
-                  </p>
-                </div>
-              </div>
-
-            </article>
-          </div><!-- End post list item -->
-
-          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <article>
-
-              <div class="post-img">
-                <img src="assets/img/blog/blog-3.jpg" alt="" class="img-fluid">
-              </div>
-
-              <p class="post-category">Entertainment</p>
-
-              <h2 class="title">
-                <a href="blog-details.html">Possimus soluta ut id suscipit ea ut in quo quia et soluta</a>
-              </h2>
-
-              <div class="d-flex align-items-center">
-                <img src="assets/img/blog/blog-author-3.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
-                <div class="post-meta">
-                  <p class="post-author">Mark Dower</p>
-                  <p class="post-date">
-                    <time datetime="2022-01-01">Jun 22, 2022</time>
-                  </p>
-                </div>
-              </div>
-
-            </article>
-          </div><!-- End post list item -->
-
-          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <article>
-
-              <div class="post-img">
-                <img src="assets/img/blog/blog-3.jpg" alt="" class="img-fluid">
-              </div>
-
-              <p class="post-category">Entertainment</p>
-
-              <h2 class="title">
-                <a href="blog-details.html">Possimus soluta ut id suscipit ea ut in quo quia et soluta</a>
-              </h2>
-
-              <div class="d-flex align-items-center">
-                <img src="assets/img/blog/blog-author-3.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
-                <div class="post-meta">
-                  <p class="post-author">Mark Dower</p>
-                  <p class="post-date">
-                    <time datetime="2022-01-01">Jun 22, 2022</time>
-                  </p>
-                </div>
-              </div>
-
-            </article>
-          </div><!-- End post list item -->
-
-          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <article>
-
-              <div class="post-img">
-                <img src="assets/img/blog/blog-2.jpg" alt="" class="img-fluid">
-              </div>
-
-              <p class="post-category">Sports</p>
-
-              <h2 class="title">
-                <a href="blog-details.html">Nisi magni odit consequatur autem nulla dolorem</a>
-              </h2>
-
-              <div class="d-flex align-items-center">
-                <img src="assets/img/blog/blog-author-2.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
-                <div class="post-meta">
-                  <p class="post-author">Allisa Mayer</p>
-                  <p class="post-date">
-                    <time datetime="2022-01-01">Jun 5, 2022</time>
-                  </p>
-                </div>
-              </div>
-
-            </article>
-          </div><!-- End post list item -->
-
-        </div><!-- End recent posts list -->
-
+        <div class="container" id="project_list"></div>
       </div>
 
     </section><!-- /Recent Posts Section -->
+
+    <!-- Publication Section -->
+    <section id="publications" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Publications this Year</h2>
+        <a href="publications.html">Checkout the full list of our publications</a><br/>
+        <a href="https://scholar.google.com/citations?user=mc9BzYwAAAAJ&hl=en&oi=ao">More on Google Scholar</a>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+      <script>
+          window.last_year_only = true;
+      </script>
+        <div class="publication-list" id="publication_list"></div>
+        <br/><br/>
+
+      </div>
+    </section><!-- End of Publication Section -->
 
     <!-- /Team Section -->
     <section id="team" class="team section light-background">
@@ -338,7 +228,7 @@
   </section>
 
     <!-- Clients Section -->
-    <section id="clients" class="clients section">
+    <section id="sponsors" class="clients section">
 
       <div class="container section-title" data-aos="fade-up">
         <h2>Sponsors and Collaborators</h2>
