@@ -30,11 +30,11 @@
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
   --nav-color: #3a3939;  /* The default color of the main navmenu links */
-  --nav-hover-color: #e84545; /* Applied to main navmenu links when they are hovered over or active */
+  --nav-hover-color: #2d5779; /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #3a3939; /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #e84545; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+  --nav-dropdown-hover-color: #2d5779; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
@@ -225,7 +225,7 @@ h6 {
   --background-color: #ffffff;
   --heading-color: #32353a;
   --nav-color: #3a3939;
-  --nav-hover-color: #e84545;
+  --nav-hover-color: #2d5779;
 }
 
 /*--------------------------------------------------------------
@@ -2863,4 +2863,97 @@ section,
   padding-left: 5px;
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
+}
+
+/* ===========================================================================================================================  */
+
+/* Row for each publication */
+.publication-list .publication-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 20px;  /* Add space between rows */
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  /* Add a soft shadow around the frame */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);  /* Horizontal, Vertical, Blur, Color */
+  /* Lighter and thinner border */
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  /* Reduce width and center the rows */
+  width: 90%;  /* Set a percentage width (e.g., 90% of the parent container) */
+  max-width: 1000px;  /* Set a maximum width to prevent it from getting too wide */
+  margin-left: 150px;  /* Center the row horizontally */
+}
+
+/* Image styling */
+.publication-list .publication-image img {
+  width: 210px;
+  height: 100px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* Content styling */
+.publication-list .publication-content {
+  flex-grow: 1;
+}
+
+/* Title styling */
+.publication-list .publication-title {
+  font-size: 1.2em;
+  margin: 0; /* Remove extra margin */
+  line-height: 1.4; /* Adjust line spacing */
+}
+
+/* Author list styling */
+.publication-list .publication-content p {
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  margin: 0;
+  /*margin: 0px 0px -70px 0px; /* Reduce spacing between paragraphs */
+  line-height: 1.4; /* Adjust line spacing for readability */
+}
+
+/* Venue styling */
+.publication-list .publication-venue {
+  font-style: italic;
+  margin: 5px 0; /* Keep consistent spacing */
+}
+
+/* Links container */
+.publication-list .publication-links {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+/* Button styling for links */
+.publication-list .publication-links a {
+  text-decoration: none;
+  color: rgb(83, 78, 78);
+  background-color: #e2ebf3;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.publication-list .publication-links a:hover {
+  background-color: #7492b0;
+}
+
+/* Style for the year titles */
+.publication-year-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #333;
+  text-align: left;
+  border-bottom: 2px solid #eee;
 }
