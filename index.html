@@ -108,8 +108,41 @@
 
     <!-- Hero Section -->
     <section id="home" class="hero section dark-background">
-
-      <img src="assets/img/welcome-img.png" alt="" data-aos="fade-in">
+      
+      <div class="slideshow-container"></div>
+        <!-- list of image -->
+        <img src="/assets/img/photos/photo_all0.JPG" alt="">
+        <img src="/assets/img/photos/photo_all1.PNG" alt="">
+        <img src="/assets/img/photos/prof_and_bhanu.png" alt="">
+        <img src="/assets/img/welcome-img.png" alt="" class="active">
+    </div>
+    
+    <script>
+          document.addEventListener('DOMContentLoaded', () => {
+          const slides = document.querySelectorAll('img');
+  
+          if (slides.length === 0) {
+              console.error('Image path error.');
+              return;
+          }
+          // console.log(slides);
+  
+          let currentIndex = slides.length-1;
+  
+          function showNextSlide() {
+            console.log(currentIndex);
+              // hide current image
+              slides[currentIndex].style.display = 'none';
+              // calculate next idx
+              currentIndex = (currentIndex + 1) % slides.length;
+              // display next image
+              slides[currentIndex].style.display = 'block';
+          }
+  
+          setInterval(showNextSlide, 5000);
+        });
+  </script>
+      <!-- <img src="assets/img/welcome-img.png" alt="" data-aos="fade-in"> -->
 
       <div class="container">
         <div class="row">

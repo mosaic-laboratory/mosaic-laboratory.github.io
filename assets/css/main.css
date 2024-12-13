@@ -3023,3 +3023,28 @@ section,
     font-size: 1.3em;  /* Slightly smaller font size for mobile */
   }
 }
+
+/* ====== For showing the sliding at the home ====== */
+.slideshow-container {
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slideshow-container img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0; 
+  transition: opacity 1s ease-in-out; 
+  z-index: 0;
+}
+
+.slideshow-container img.active {
+  /* display: block; */
+  opacity: 1;
+  z-index: 1;
+}
