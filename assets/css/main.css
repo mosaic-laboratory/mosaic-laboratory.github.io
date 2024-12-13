@@ -2713,6 +2713,7 @@ section,
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
+  width: 100%;
 }
 
 /*--------------------------------------------------------------
@@ -3038,13 +3039,5 @@ section,
   position: absolute;
   top: 0;
   left: 0;
-  opacity: 0; 
-  transition: opacity 1s ease-in-out; 
-  z-index: 0;
-}
-
-.slideshow-container img.active {
-  /* display: block; */
-  opacity: 1;
-  z-index: 1;
+  display: none;
 }

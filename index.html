@@ -109,12 +109,12 @@
     <!-- Hero Section -->
     <section id="home" class="hero section dark-background">
       
-      <div class="slideshow-container"></div>
+      <div class="slideshow-container" data-aos="fade-up"></div>
         <!-- list of image -->
         <img src="/assets/img/photos/photo_all0.JPG" alt="">
         <img src="/assets/img/photos/photo_all1.PNG" alt="">
         <img src="/assets/img/photos/prof_and_bhanu.png" alt="">
-        <img src="/assets/img/welcome-img.png" alt="" class="active">
+        <img src="/assets/img/welcome-img.png" alt="">
     </div>
     
     <script>
@@ -134,9 +134,14 @@
               // hide current image
               slides[currentIndex].style.display = 'none';
               // calculate next idx
-              currentIndex = (currentIndex + 1) % slides.length;
+              currentIndex = (currentIndex - 1);
+              if (currentIndex < 0){
+                currentIndex = slides.length-1;
+              }
               // display next image
               slides[currentIndex].style.display = 'block';
+              // console.log(currentIndex);
+              // console.log(slides[currentIndex].style.display);
           }
   
           setInterval(showNextSlide, 5000);
