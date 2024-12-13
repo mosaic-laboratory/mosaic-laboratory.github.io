@@ -1,6 +1,7 @@
 /*--Keywords for adding hyperlinks--*/
 /*--linkedin--website--cv--github--*/
 
+
 var team_list = {
     principal_investigator: {
         "Tauhidur Rahman": {
@@ -72,7 +73,10 @@ var team_list = {
             img: "https://media.licdn.com/dms/image/v2/D5603AQGj5e-YoP7zUA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1701216821032?e=1739404800&v=beta&t=eKUJSyNTC-ESwOZabKwv7elKz8GbMfqFp2wJk-oLsOo",
             role: "PhD Student",
             social: {
-                linkedin: "https://www.linkedin.com/in/yunfei-luo/"
+                linkedin: "https://www.linkedin.com/in/yunfei-luo/",
+                website: "https://yunfeiluo.github.io/",
+                github: "https://github.com/yunfeiluo", 
+                cv: "https://yunfeiluo.github.io/update/yunfeiluo_CV.pdf", 
             }
         },
         "Avanti Bhandarkar": {
@@ -148,4 +152,6 @@ var team_list = {
             }
         }
     }
-};
+ };
+ 
+ 
