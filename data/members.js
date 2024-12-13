@@ -5,10 +5,15 @@
 var team_list = {
     principal_investigator: {
         "Tauhidur Rahman": {
-            img: "https://datascience.ucsd.edu/wp-content/uploads/2023/01/Tauhidur_Headshot.jpg",
+            img: "https://media.licdn.com/dms/image/v2/D4E03AQFWjiFYb7W9Lg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1644085775484?e=1739404800&v=beta&t=dStxTXWuaulC8d2lN5fvCD8iWUpx3cvRANIzacDST4M",
             role: "Assistant Professor",
             email: "trahman@ucsd.edu",
-            affiliation: "Halıcıoğlu Data Science Institute, UCSD"
+            affiliation: "Halıcıoğlu Data Science Institute, UCSD",
+            social: {
+                linkedin: "https://www.linkedin.com/in/tauhidur/",
+                website: "https://www.tauhidurrahman.com/",
+                cv: "https://drive.google.com/file/d/1Lu2SopXZLWya84NEnyDOXLeSSTTLJJeZ/view"
+            }
         }
     },
     current_students: {
