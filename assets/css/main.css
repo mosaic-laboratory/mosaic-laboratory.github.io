@@ -57,6 +57,32 @@
   scroll-behavior: smooth;
 }
 
+
+
+/*--------------Hover effect------------------------------------------------*/
+.social-overlay a {
+  color: #ffffff; /* White icons */
+  font-size: 20px; /* Icon size */
+  margin: 0 10px; /* Space between icons */
+}
+
+.member-img:hover .social {
+opacity: 1;
+transform: translateY(0);
+}
+
+.social {
+opacity: 0;
+transform: translateY(10px);
+transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.social a {
+text-decoration: none;
+}
+
+
+
 /*--------------------------------------------------------------
 # General Styling & Shared Classes
 --------------------------------------------------------------*/
