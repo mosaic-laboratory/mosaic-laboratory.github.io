@@ -2957,3 +2957,43 @@ section,
   text-align: left;
   border-bottom: 2px solid #eee;
 }
+
+/* ===========================================================================================================================  */
+
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 768px) {
+  .publication-list .publication-row {
+    flex-direction: column; /* Stack the content vertically on smaller screens */
+    margin-left: 0;  /* Remove the left margin */
+    width: 100%;  /* Full width for smaller screens */
+    padding: 10px;  /* Adjust padding */
+  }
+
+  /* Adjust image size */
+  .publication-list .publication-image img {
+    width: 100%;  /* Make image responsive */
+    height: auto;  /* Maintain aspect ratio */
+    margin-bottom: 10px;  /* Add some spacing below the image */
+  }
+
+  /* Adjust title size */
+  .publication-list .publication-title {
+    font-size: 1.1em;  /* Reduce title size on mobile */
+  }
+
+  /* Adjust text size for better readability */
+  .publication-list .publication-content p {
+    font-size: 13px;  /* Slightly smaller font for mobile */
+  }
+
+  /* Adjust links container */
+  .publication-list .publication-links {
+    flex-direction: column;  /* Stack links vertically */
+    align-items: flex-start;
+  }
+
+  /* Adjust year title size */
+  .publication-year-title {
+    font-size: 1.3em;  /* Slightly smaller font size for mobile */
+  }
+}
