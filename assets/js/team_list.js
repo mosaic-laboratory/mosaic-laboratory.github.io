@@ -53,6 +53,11 @@ class TeamList extends React.Component {
                                                 <i className="bi bi-globe" style={{ fontSize: "24px", margin: "0 5px" }}></i>
                                             </a>
                                         )}
+                                        {details.social.cv && (
+                                            <a href={details.social.cv} target="_blank" rel="noopener noreferrer">
+                                                  <i className="bi bi-file-earmark-text" style={{ fontSize: "24px", margin: "0 5px" }}></i>
+                                            </a>
+                                        )}
                                     </div>
                                 )}
                             </div>
