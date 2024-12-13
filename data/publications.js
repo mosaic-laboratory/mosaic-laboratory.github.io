@@ -6,7 +6,7 @@ var publication_list = {
         'venue': "IMWUT 2024",
         'year': 2024,
         'paper_pdf': "https://dl.acm.org/doi/abs/10.1145/3699775",
-        "image": "/assets/img/welcome-img.png"
+        "image": "/assets/img/publications/playlogue2024.png"
     },
     'covid192024': {
         'title': "Syndromic Surveillance of Population-Level COVID-19 Burden with Cough Monitoring in a Hospital Emergency Waiting Room",
@@ -14,7 +14,7 @@ var publication_list = {
         'venue': "Frontiers in Public Health",
         'year': 2024,
         'paper_pdf': "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2024.1279392/full",
-        "image": "/assets/img/welcome-img.png"
+        "image": "https://www.frontiersin.org/files/Articles/1279392/fpubh-12-1279392-HTML/image_m/fpubh-12-1279392-g001.jpg"
     },
     'nerf2024': {
         'title': "NeRF-enabled Analysis-Through-Synthesis for ISAR Imaging of Small Everyday Objects with Sparse and Noisy UWB Radar Data",
@@ -22,7 +22,7 @@ var publication_list = {
         'venue': "IROS 2024",
         'year': 2024,
         'paper_pdf': "https://arxiv.org/abs/2410.10085",
-        "image": "/assets/img/welcome-img.png"
+        "image": "/assets/img/publications/nerf2024.png"
     },
     'v2ce2024': {
         'title': "V2CE: Video to Continuous Events Simulator",
@@ -30,7 +30,7 @@ var publication_list = {
         'venue': "ICRA 2024",
         'year': 2024,
         'paper_pdf': "https://ieeexplore.ieee.org/abstract/document/10609864",
-        "image": "/assets/img/welcome-img.png"
+        "image": "/assets/img/publications/v2ce2024.png"
     },
     'pharmacokinetics2024': {
         'title': "Pharmacokinetics-Informed Neural Network for Predicting Opioid Administration Moments with Wearable Sensors",
@@ -38,7 +38,16 @@ var publication_list = {
         'venue': "AAAI 2024",
         'year': 2024,
         'paper_pdf': "https://ojs.aaai.org/index.php/AAAI/article/view/30326",
-        "image": "/assets/img/welcome-img.png"
+        "image": "/assets/img/publications/pharmacokinetics2024.png"
+    },
+    'idhposter2024': {
+        'title': "Real-Time Forecasting of Intradialytic Hypotension Using Deep Learning and Multimodal Data Integration: SA-PO405",
+        'authors': "Yunfei Luo, Siwei Zhao, Subhasis Dasgupta, Tauhidur Rahman, Rakesh Malhotra",
+        'venue': "Journal of the American Society of Nephrology",
+        'year': 2024,
+        'paper_pdf': "https://journals.lww.com/jasn/fulltext/2024/10001/real_time_forecasting_of_intradialytic_hypotension.3150.aspx",
+        "poster": "https://docs.google.com/presentation/d/15KpczsFswoq7wc4MdqF-suXRKCTqQz-G/edit?usp=sharing&ouid=109208499330994003068&rtpof=true&sd=true",
+        "image": "/assets/img/publications/idhposter2024.png"
     },
     'studentstress2024': {
         'title': "Dynamic clustering via branched deep learning enhances personalization of stress prediction from mobile sensor data",
@@ -65,32 +74,32 @@ var publication_list = {
         "authors": "Anup Sathya, Jiasheng Li, Tauhidur Rahman, Ge Gao, Huaishu Peng",
         "venue": "IMWUT 2022",
         "year": 2022,
-        "paper_pdf": "#",
-        "image": "/assets/img/welcome-img.png"
+        "paper_pdf": "https://arxiv.org/abs/2208.08491",
+        "image": "/assets/img/publications/calico_2022.png"
     },
     "hyperspectral_image_super_resolution_2022": {
         "title": "Hyperspectral Image Super-Resolution in Arbitrary Input-Output Band Settings.",
         "authors": "Zhongyang Zhang, Zhiyang Xu, Zia Ahmed, Asif Salekin, Tauhidur Rahman",
         "venue": "WACI 2022",
         "year": 2022,
-        "paper_pdf": "#",
-        "image": "/assets/img/welcome-img.png"
+        "paper_pdf": "http://openaccess.thecvf.com/content/WACV2022W/WACI/html/Zhang_Hyperspectral_Image_Super-Resolution_in_Arbitrary_Input-Output_Band_Settings_WACVW_2022_paper.html",
+        "image": "/assets/img/publications/hyperspectral_image_super_resolution_2022.png"
     },
     "earlyscreen_2022": {
         "title": "EarlyScreen: Multi-scale Instance Fusion for Predicting Neural Activation and Psychopathology in Preschool Children.",
         "authors": "Manasa Kalanadhabhatta, Adrelys Mateo Santana, Zhongyang Zhang, Deepak Ganesan, Adam S Grabell, Tauhidur Rahman",
         "venue": "IMWUT 2022",
         "year": 2022,
-        "paper_pdf": "#",
-        "image": "/assets/img/welcome-img.png"
+        "paper_pdf": "https://dl.acm.org/doi/abs/10.1145/3534583",
+        "image": "/assets/img/publications/earlyscreen_2022.png"
     },
     "prefrontal_modulation_2022": {
         "title": "Prefrontal Modulation of Frustration-related Physiology in Preschool Children Ranging from Low to Severe Irritability.",
         "authors": "Adam S Grabell, Adrelys Mateo Santana, Kari N Thomsen, Katie Gonzalez, Zhongyang Zhang, Zachary Bivins, Tauhidur Rahman",
         "venue": "Developmental Cognitive Neuroscience 2022",
         "year": 2022,
-        "paper_pdf": "#",
-        "image": "/assets/img/welcome-img.png"
+        "paper_pdf": "https://www.sciencedirect.com/science/article/pii/S187892932200055X",
+        "image": "https://ars.els-cdn.com/content/image/1-s2.0-S187892932200055X-gr3.jpg"
     },
     // 2021
     "opitrack_2021": {
@@ -98,33 +107,31 @@ var publication_list = {
         "authors": "Bhanu Teja Gullapalli, Stephanie Carreiro, Brittany Chapman, Deepak Ganesan, Jan Sjoquist, Tauhidur Rahman",
         "venue": "IMWUT 2021",
         "year": 2021,
-        "paper_pdf": "#",
+        "paper_pdf": "https://dl.acm.org/doi/abs/10.1145/3478107",
         "image": "/assets/img/welcome-img.png",
-        "poster": "#"
     },
     "joint_prediction_cocaine_2021": {
         "title": "Joint Prediction of Cocaine Craving and Euphoria using Structured Prediction Energy Networks.",
         "authors": "Bhanu Teja Gullapalli, Gustavo A Angarita, Deepak Ganesan, Tauhidur Rahman",
         "venue": "DigiBiom 2021",
         "year": 2021,
-        "paper_pdf": "#",
+        "paper_pdf": "https://dl.acm.org/doi/abs/10.1145/3469266.3469881",
         "image": "/assets/img/welcome-img.png",
-        "poster": "#"
     },
     "knowledge_transfer_2021": {
         "title": "Knowledge Transfer across Imaging Modalities Via Simultaneous Learning of Adaptive Autoencoders for High-Fidelity Mobile Robot Vision.",
         "authors": "Md Mahmudur Rahman, Tauhidur Rahman, Donghyun Kim, Mohammad Arif Ul Alam",
         "venue": "IROS 2021",
         "year": 2021,
-        "paper_pdf": "#",
-        "image": "/assets/img/welcome-img.png"
+        "paper_pdf": "https://ieeexplore.ieee.org/abstract/document/9636360/",
+        "image": "/assets/img/publications/knowledge_transfer_2021.png"
     },
     "effect_sleep_cognition_2021": {
         "title": "Effect of Sleep and Biobehavioral Patterns on Multidimensional Cognitive Performance: Longitudinal, In-the-Wild Study.",
         "authors": "Manasa Kalanadhabhatta, Tauhidur Rahman, Deepak Ganesan",
         "venue": "JMIR 2021",
         "year": 2021,
-        "paper_pdf": "#",
+        "paper_pdf": "https://www.jmir.org/2021/2/E23936/",
         "image": "/assets/img/welcome-img.png"
     },
     // 2020
@@ -133,24 +140,23 @@ var publication_list = {
         "authors": "Md. Farhan Tasnim Oshim, Julian Killingback, Dave Follette, Huaishu Peng, Tauhidur Rahman",
         "venue": "UIST 2020",
         "year": 2020,
-        "paper_pdf": "#",
+        "paper_pdf": "https://dl.acm.org/doi/abs/10.1145/3379337.3415902",
         "image": "/assets/img/welcome-img.png",
-        "poster": "#"
     },
     "flusense_2020": {
         "title": "FluSense: A Contactless Syndromic Surveillance Platform for Influenza-Like Illness in Hospital Waiting Areas.",
         "authors": "Forsad Al Hossain, Andrew A. Lover, George A. Corey, Nicholas G. Reich, Tauhidur Rahman",
         "venue": "IMWUT 2020",
         "year": 2020,
-        "paper_pdf": "#",
-        "image": "/assets/img/welcome-img.png"
+        "paper_pdf": "https://dl.acm.org/doi/abs/10.1145/3381014",
+        "image": "/assets/img/publications/flusense_2020.png"
     },
     "mhealth_covid_2020": {
         "title": "Can mHealth Technology Help Mitigate the Effects of the COVID-19 Pandemic?",
         "authors": "Catherine Adans-Dester et al.",
         "venue": "IEEE Open Journal of Engineering in Medicine and Biology 2020",
         "year": 2020,
-        "paper_pdf": "#",
+        "paper_pdf": "https://ieeexplore.ieee.org/abstract/document/9162431/",
         "image": "/assets/img/welcome-img.png"
     },
     "mobile_sensing_alertness_2020": {
@@ -158,15 +164,15 @@ var publication_list = {
         "authors": "Akane Sano, Tauhidur Rahman, Mi Zhang, Deepak Ganesan, Tanzeem Choudhury",
         "venue": "GetMobile 2020",
         "year": 2020,
-        "paper_pdf": "#",
-        "image": "/assets/img/welcome-img.png"
+        "paper_pdf": "https://www.academia.edu/download/88987763/2019_GetMobile_MobileSensing.pdf",
+        "image": "/assets/img/publications/mobile_sensing_alertness_2020.png"
     },
     "respiratory_rate_monitoring_2020": {
         "title": "Respiratory Rate Monitoring in Clinical Environments with a Contactless Ultra-Wideband Impulse Radar-based Sensor System.",
         "authors": "Goldfine*, Charlotte Oshim*, Md. Farhan Tasnim, Stephanie Carreiro, Brittany Chapman, Deepak Ganesan, Tauhidur Rahman",
         "venue": "Hawaii International Conference on System Sciences 2020",
         "year": 2020,
-        "paper_pdf": "#",
+        "paper_pdf": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6998801/",
         "image": "/assets/img/welcome-img.png"
     },    
     // 2019
@@ -175,7 +181,7 @@ var publication_list = {
         'authors': "Soha Rostaminia, Alexander Lamson, Subhransu Maji, Tauhidur Rahman, and Deepak Ganesan",
         'venue': "IMWUT 2019",
         'year': 2019,
-        'paper_pdf': "#",
+        'paper_pdf': "https://dl.acm.org/doi/abs/10.1145/3314410",
         "image": "/assets/img/welcome-img.png"
     },
     'nose2019': {
@@ -183,7 +189,7 @@ var publication_list = {
         'authors': "Pooya Khaloo, Brandon Oubre, Jeremy Yang, Tauhidur Rahman, Sunghoon Ivan Lee",
         'venue': "IMWUT 2019",
         'year': 2019,
-        'paper_pdf': "#",
+        'paper_pdf': "https://dl.acm.org/doi/abs/10.1145/3328920",
         "image": "/assets/img/welcome-img.png"
     },
     'pedestrian2019': {
@@ -191,7 +197,7 @@ var publication_list = {
         'authors': "Debasmita Ghose, Shasvat Desai, Sneha Bhattacharya, Deep Chakraborty, Madalina Fiterau, Tauhidur Rahman",
         'venue': "CVPR 2019 Workshop",
         'year': 2019,
-        'paper_pdf': "#",
+        'paper_pdf': "http://openaccess.thecvf.com/content_CVPRW_2019/html/PBVS/Ghose_Pedestrian_Detection_in_Thermal_Images_Using_Saliency_Maps_CVPRW_2019_paper.html",
         "image": "/assets/img/welcome-img.png"
     },
     'onbodycocaine2019': {
@@ -199,7 +205,7 @@ var publication_list = {
         'authors': "Bhanu Teja Gullapalli, Annamalai Natarajan, Gustavo A. Angarita, Robert T. Malison, Deepak Ganesan, Tauhidur Rahman",
         'venue': "IMWUT 2019",
         'year': 2019,
-        'paper_pdf': "#",
+        'paper_pdf': "https://dl.acm.org/doi/abs/10.1145/3328917",
         "image": "/assets/img/welcome-img.png"
     },
     // Before 2019
@@ -208,7 +214,7 @@ var publication_list = {
         'authors': "Tauhidur Rahman, Alexander Adams, Perry Schein, Aadhar Jain, David Erickson, Tanzeem Choudhury.",
         'venue': "SenSys 2016",
         'year': 2016,
-        'paper_pdf': "#",
-        "image": "/assets/img/welcome-img.png"
+        'paper_pdf': "https://dl.acm.org/doi/abs/10.1145/2994551.2994572",
+        "image": "/assets/img/publications/nutrilyzer2016.png"
     },
 }
