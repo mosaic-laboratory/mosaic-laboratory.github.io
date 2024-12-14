@@ -131,7 +131,7 @@ var publication_list = {
         "venue": "DigiBiom 2021",
         "year": 2021,
         "paper_pdf": "https://dl.acm.org/doi/abs/10.1145/3469266.3469881",
-        "image": "/assets/img/welcome-img.png",
+        "image": "/assets/img/publications/joint_prediction_cocaine_2021.png",
     },
     "knowledge_transfer_2021": {
         "title": "Knowledge Transfer across Imaging Modalities Via Simultaneous Learning of Adaptive Autoencoders for High-Fidelity Mobile Robot Vision.",
@@ -147,7 +147,7 @@ var publication_list = {
         "venue": "JMIR 2021",
         "year": 2021,
         "paper_pdf": "https://www.jmir.org/2021/2/E23936/",
-        "image": "/assets/img/welcome-img.png"
+        "image": "/assets/img/publications/effect_sleep_cognition_2021.png"
     },
     // 2020
     "mechanobeat_2020": {
@@ -156,7 +156,7 @@ var publication_list = {
         "venue": "UIST 2020",
         "year": 2020,
         "paper_pdf": "https://dl.acm.org/doi/abs/10.1145/3379337.3415902",
-        "image": "/assets/img/welcome-img.png",
+        "image": "/assets/img/publications/mechanobeat_2020.png",
         "video": "https://www.youtube.com/watch?v=ZXA_eKm_bR8"
     },
     "flusense_2020": {
@@ -174,7 +174,7 @@ var publication_list = {
         "venue": "IEEE Open Journal of Engineering in Medicine and Biology 2020",
         "year": 2020,
         "paper_pdf": "https://ieeexplore.ieee.org/abstract/document/9162431/",
-        "image": "/assets/img/welcome-img.png"
+        "image": "/assets/img/publications/mhealth_covid_2020.png"
     },
     "mobile_sensing_alertness_2020": {
         "title": "Mobile Sensing of Alertness, Sleep and Circadian Rhythm: Hardware and Software Platform.",
@@ -190,7 +190,7 @@ var publication_list = {
         "venue": "Hawaii International Conference on System Sciences 2020",
         "year": 2020,
         "paper_pdf": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6998801/",
-        "image": "/assets/img/welcome-img.png"
+        "image": "/assets/img/publications/respiratory_rate_monitoring_2020.png"
     },    
     // 2019
     'wince2019': {
@@ -199,7 +199,7 @@ var publication_list = {
         'venue': "IMWUT 2019",
         'year': 2019,
         'paper_pdf': "https://dl.acm.org/doi/abs/10.1145/3314410",
-        "image": "/assets/img/welcome-img.png"
+        "image": "/assets/img/publications/wince2019.png"
     },
     'nose2019': {
         'title': "NOSE: A Novel Odor Sensing Engine for Ambient Monitoring of the Frying Cooking Method in Kitchen Environments.",
@@ -207,7 +207,7 @@ var publication_list = {
         'venue': "IMWUT 2019",
         'year': 2019,
         'paper_pdf': "https://dl.acm.org/doi/abs/10.1145/3328920",
-        "image": "/assets/img/welcome-img.png"
+        "image": "/assets/img/publications/nose2019.png"
     },
     'pedestrian2019': {
         'title': "Pedestrian Detection in Thermal Images using Saliency Maps.",
@@ -215,7 +215,7 @@ var publication_list = {
         'venue': "CVPR 2019 Workshop",
         'year': 2019,
         'paper_pdf': "http://openaccess.thecvf.com/content_CVPRW_2019/html/PBVS/Ghose_Pedestrian_Detection_in_Thermal_Images_Using_Saliency_Maps_CVPRW_2019_paper.html",
-        "image": "/assets/img/welcome-img.png"
+        "image": "/assets/img/publications/pedestrian2019.png"
     },
     'onbodycocaine2019': {
         'title': "On-body Sensing of Cocaine Craving, Euphoria and Drug-Seeking Behavior using Cardiac and Respiratory Signals.",
@@ -223,7 +223,7 @@ var publication_list = {
         'venue': "IMWUT 2019",
         'year': 2019,
         'paper_pdf': "https://dl.acm.org/doi/abs/10.1145/3328917",
-        "image": "/assets/img/welcome-img.png"
+        "image": "/assets/img/publications/onbodycocaine2019.png"
     },
     // Before 2019
     'nutrilyzer2016': {
