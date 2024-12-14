@@ -345,7 +345,8 @@
         </div>
 
         <div class="col-lg-6">
-          <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+          <!-- <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200"> -->
+            <form method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
             <div class="row gy-4">
 
               <div class="col-md-6">
@@ -365,15 +366,45 @@
               </div>
 
               <div class="col-12 text-center">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+                <div class="loading" style="display:none;">Loading</div>
+                <div class="sent-message" style="display:none;">Please review and send the message in your email application.</div>
+                <!-- <div class="error-message"></div> -->
+                <!-- <div class="sent-message">Your message has been sent. Thank you!</div> -->
 
-                <button type="submit">Send Message</button>
+                <!-- <button type="submit"><a href="mailto:$trahman@ucsd.edu">Send Message</a></button> -->
+                <button type="submit" onclick="openMailApp()">Send Message</button>
+
               </div>
 
             </div>
           </form>
+
+          <script>
+            function openMailApp() {
+                var name = document.querySelector('input[name="name"]').value;
+                var email = document.querySelector('input[name="email"]').value;
+                var subject = document.querySelector('input[name="subject"]').value;
+                var message = document.querySelector('textarea[name="message"]').value;
+        
+                // Construct mailto link with pre-filled subject and body
+                var mailtoLink = 'mailto:trahman@ucsd.edu' +
+                                 '?subject=' + encodeURIComponent(subject) +
+                                 '&body=' + "Dear Dr.Rahman, %0A%0A" + encodeURIComponent(message) + "%0A%0ABest regards,%0A" + encodeURIComponent(name);
+                
+                document.querySelector('.loading').style.display = 'block';
+                // document.querySelector('.sent-message').style.display = 'none';
+        
+                // Open mail client with pre-filled details
+                window.location.href = mailtoLink;
+
+                // Hide loading animation and show sent message after 0.5 seconds (to simulate form submission)
+                setTimeout(function() {
+                    document.querySelector('.loading').style.display = 'none';
+                    document.querySelector('.sent-message').style.display = 'block';
+                }, 500);
+            }
+        </script>
+
         </div><!-- End Contact Form -->
 
       </div>
