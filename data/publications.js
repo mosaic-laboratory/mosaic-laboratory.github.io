@@ -22,7 +22,8 @@ var publication_list = {
         'venue': "IROS 2024",
         'year': 2024,
         'paper_pdf': "https://arxiv.org/abs/2410.10085",
-        "image": "/assets/img/publications/nerf2024.png"
+        "image": "/assets/img/publications/nerf2024.png",
+        "video": "https://www.youtube.com/watch?v=n6-XmvO5NQQ"
     },
     'v2ce2024': {
         'title': "V2CE: Video to Continuous Events Simulator",
@@ -30,7 +31,8 @@ var publication_list = {
         'venue': "ICRA 2024",
         'year': 2024,
         'paper_pdf': "https://ieeexplore.ieee.org/abstract/document/10609864",
-        "image": "/assets/img/publications/v2ce2024.png"
+        "image": "/assets/img/publications/v2ce2024.png",
+        "video": "https://www.youtube.com/watch?v=8uWGnRstt3M"
     },
     'pharmacokinetics2024': {
         'title': "Pharmacokinetics-Informed Neural Network for Predicting Opioid Administration Moments with Wearable Sensors",
@@ -38,7 +40,8 @@ var publication_list = {
         'venue': "AAAI 2024",
         'year': 2024,
         'paper_pdf': "https://ojs.aaai.org/index.php/AAAI/article/view/30326",
-        "image": "/assets/img/publications/pharmacokinetics2024.png"
+        "image": "/assets/img/publications/pharmacokinetics2024.png",
+        "video": "https://www.youtube.com/watch?v=WLx-SuGs5pI"
     },
     'idhposter2024': {
         'title': "Real-Time Forecasting of Intradialytic Hypotension Using Deep Learning and Multimodal Data Integration: SA-PO405",
@@ -68,6 +71,16 @@ var publication_list = {
         "image": "/assets/img/publications/multinlp2024.png",
         "poster": "https://docs.google.com/presentation/d/1onm2NFIYqCFRYWmKg-CrRtVk3GyNPohE/edit?usp=sharing&ouid=109208499330994003068&rtpof=true&sd=true"
     },
+    // 2023
+    "yelan_2023": {
+        "title": "Neuromorphic high-frequency 3D dancing pose estimation in dynamic environment",
+        "authors": "Zhongyang Zhang, Kaidong Chai, Haowen Yu, Ramzi Majaj, Francesca Walsh, Edward Wang, Upal Mahbub, Hava Siegelmann, Donghyun Kim, Tauhidur Rahman",
+        "venue": "Neurocomputing 2023",
+        "year": 2023,
+        "paper_pdf": "https://www.sciencedirect.com/science/article/pii/S0925231223005118",
+        "image": "/assets/img/publications/yelan_2023.png",
+        'video': "https://www.youtube.com/watch?v=xmqMgzqAxIM"
+    },
     // 2022
     "calico_2022": {
         "title": "Calico: Track Based Interactive and Relocatable Wearables with Fast, Reliable, and Precise Locomotion.",
@@ -91,7 +104,8 @@ var publication_list = {
         "venue": "IMWUT 2022",
         "year": 2022,
         "paper_pdf": "https://dl.acm.org/doi/abs/10.1145/3534583",
-        "image": "/assets/img/publications/earlyscreen_2022.png"
+        "image": "/assets/img/publications/earlyscreen_2022.png",
+        "video": "https://www.youtube.com/watch?v=J74PHs3m2xM"
     },
     "prefrontal_modulation_2022": {
         "title": "Prefrontal Modulation of Frustration-related Physiology in Preschool Children Ranging from Low to Severe Irritability.",
@@ -108,7 +122,8 @@ var publication_list = {
         "venue": "IMWUT 2021",
         "year": 2021,
         "paper_pdf": "https://dl.acm.org/doi/abs/10.1145/3478107",
-        "image": "/assets/img/welcome-img.png",
+        "image": "/assets/img/publications/opitrack_2021.png",
+        "video": "https://www.youtube.com/watch?v=zo2sz6DhK84"
     },
     "joint_prediction_cocaine_2021": {
         "title": "Joint Prediction of Cocaine Craving and Euphoria using Structured Prediction Energy Networks.",
@@ -142,6 +157,7 @@ var publication_list = {
         "year": 2020,
         "paper_pdf": "https://dl.acm.org/doi/abs/10.1145/3379337.3415902",
         "image": "/assets/img/welcome-img.png",
+        "video": "https://www.youtube.com/watch?v=ZXA_eKm_bR8"
     },
     "flusense_2020": {
         "title": "FluSense: A Contactless Syndromic Surveillance Platform for Influenza-Like Illness in Hospital Waiting Areas.",
@@ -149,7 +165,8 @@ var publication_list = {
         "venue": "IMWUT 2020",
         "year": 2020,
         "paper_pdf": "https://dl.acm.org/doi/abs/10.1145/3381014",
-        "image": "/assets/img/publications/flusense_2020.png"
+        "image": "/assets/img/publications/flusense_2020.png",
+        "video": "https://www.youtube.com/watch?v=DwN_nD0E_pA"
     },
     "mhealth_covid_2020": {
         "title": "Can mHealth Technology Help Mitigate the Effects of the COVID-19 Pandemic?",

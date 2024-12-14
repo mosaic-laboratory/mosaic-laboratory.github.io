@@ -77,8 +77,8 @@
           <!-- <li><a href="index.html#pricing">Pricing</a></li> -->
           <li><a href="#teams">Team</a></li>
           <!-- <li><a href="blog.html">Blog</a></li> -->
-          <li><a href="#contact">Contact</a></li>
-          <li class="dropdown"><a href="section_template.html"><span>Dropdown Template</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <!-- <li><a href="#contact">Contact</a></li> -->
+          <!-- <li class="dropdown"><a href="section_template.html"><span>Dropdown Template</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>
               <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -94,7 +94,7 @@
               <li><a href="#">Dropdown 3</a></li>
               <li><a href="#">Dropdown 4</a></li>
             </ul>
-          </li>
+          </li> -->
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -281,13 +281,12 @@
     </section><!-- /Clients Section -->
 
   <!-- Contact Section -->
-  <section id="contact" class="contact section">
+  <!-- <section id="contact" class="contact section">
 
-    <!-- Section Title -->
     <div class="container section-title" data-aos="fade-up">
       <h2>Contact</h2>
       <p>Our lab is part of the <a href="https://ucsd.edu/" target="_blank">University of California San Diego</a>'s <a href="https://datascience.ucsd.edu/" target="_blank">Halıcıoğlu Data Science Institute</a>. We are a geographically distributed team that is headquartered on the 2nd Floor of the <a href="https://fah.ucsd.edu/" target="_blank">Franklin Antonio Hall</a>.</p>
-    </div><!-- End Section Title -->
+    </div>
 
     <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -304,48 +303,24 @@
                 <p>La Jolla, CA 92093</p>
                 <p>United States</p>
               </div>
-            </div><!-- End Info Item -->
-
-            <!-- <div class="col-md-6">
-              <div class="info-item" data-aos="fade" data-aos-delay="300">
-                <i class="bi bi-telephone"></i>
-                <h3>Call Us</h3>
-                <p>+1 TBD</p>
-              </div>
-            </div> -->
-            <!-- End Info Item -->
+            </div>
 
             <div class="col-md-6">
               <div class="info-item" data-aos="fade" data-aos-delay="400">
                 <i class="bi bi-envelope"></i>
                 <h3>Email Us</h3>
                 <p>trahman@ucsd.edu</p>
-                <!-- <p>contact@example.com</p> -->
               </div>
-            </div><!-- End Info Item -->
-
-            <div class="col-md-6">
-              <!-- <div class="info-item" data-aos="fade" data-aos-delay="500"> -->
-                <img src="https://fah.ucsd.edu/sites/fah.ucsd.edu/files/inline-images/Franklin_Antonio_Hall_BdgatDusk3_0.jpg" style="width: 200%; height: auto; display: block;" data-aos="fade" data-aos-delay="500">
-              <!-- </div> -->
             </div>
 
-            <!-- <div class="col-md-6">
-              <div class="info-item" data-aos="fade" data-aos-delay="500">
-                <i class="bi bi-clock"></i>
-                <h3>Open Hours</h3>
-                <p>Monday - Friday</p>
-                <p>9:00AM - 05:00PM PT</p>
-              </div>
-            </div> -->
-            <!-- End Info Item -->
-
+            <div class="col-md-6">
+                <img src="https://fah.ucsd.edu/sites/fah.ucsd.edu/files/inline-images/Franklin_Antonio_Hall_BdgatDusk3_0.jpg" style="width: 200%; height: auto; display: block;" data-aos="fade" data-aos-delay="500">
+            </div>
           </div>
 
         </div>
 
         <div class="col-lg-6">
-          <!-- <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200"> -->
             <form method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
             <div class="row gy-4">
 
@@ -368,10 +343,7 @@
               <div class="col-12 text-center">
                 <div class="loading" style="display:none;">Loading</div>
                 <div class="sent-message" style="display:none;">Please review and send the message in your email application.</div>
-                <!-- <div class="error-message"></div> -->
-                <!-- <div class="sent-message">Your message has been sent. Thank you!</div> -->
 
-                <!-- <button type="submit"><a href="mailto:$trahman@ucsd.edu">Send Message</a></button> -->
                 <button type="submit" onclick="openMailApp()">Send Message</button>
 
               </div>
@@ -392,7 +364,6 @@
                                  '&body=' + "Dear Dr.Rahman, %0A%0A" + encodeURIComponent(message) + "%0A%0ABest regards,%0A" + encodeURIComponent(name);
                 
                 document.querySelector('.loading').style.display = 'block';
-                // document.querySelector('.sent-message').style.display = 'none';
         
                 // Open mail client with pre-filled details
                 window.location.href = mailtoLink;
@@ -405,13 +376,14 @@
             }
         </script>
 
-        </div><!-- End Contact Form -->
+        </div> 
 
       </div>
 
     </div>
 
-  </section><!-- /Contact Section -->
+  </section> -->
+  <!-- /Contact Section -->
 
   </main>
 
