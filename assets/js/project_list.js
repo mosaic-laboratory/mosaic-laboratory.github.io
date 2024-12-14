@@ -7,7 +7,7 @@ class ProjectList extends React.Component {
 
         for (let item in project_list) {
             list.push(
-                <div className="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div className="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100" key={item}>
                     <article>
 
                     <div className="post-img">
