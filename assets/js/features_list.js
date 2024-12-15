@@ -60,10 +60,10 @@ class FeaturesSection extends React.Component {
             <section id="features" className="features section">
                 <div className="container section-title" data-aos="fade-up">
                     <h2>Features</h2>
-                    <p>
-                        Explore our amazing features to learn more about how we
-                        deliver value and impact.
-                    </p>
+                    <a href="https://www.youtube.com/@mosaiclab-ucsd/videos" target="_blank">
+                    Explore our amazing features to learn more about how we
+                    deliver value and impact.
+                    </a>
                 </div>
                 <div className="container">
                     {features.map((item, index) =>
