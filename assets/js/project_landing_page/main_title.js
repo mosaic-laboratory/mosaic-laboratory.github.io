@@ -8,7 +8,7 @@ class ProjectLandingTitle extends React.Component {
 
         return (
             <div>
-              <h1>{project_list[window.project_name]["title"]} (Webpage under development)</h1>
+              <h1>{project_list[window.project_name]["title"]}</h1>
               <p className="mb-0">{project_list[window.project_name]["tags"]}</p>
             </div>
         );

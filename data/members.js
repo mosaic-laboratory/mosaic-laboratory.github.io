@@ -86,14 +86,14 @@ var team_list = {
         },
         "Avanti Bhandarkar": {
             img: "https://ca.slack-edge.com/TB36W6R8V-U06STPADGEL-06fa36d08fac-192",
-            role: "Graduate Student",
+            role: "Master student",
             social: {
                 linkedin: "https://www.linkedin.com/in/avantibhandarkar/"
             }
         },
         "Jiacheng Qiu": {
             img: "https://media.licdn.com/dms/image/v2/D5603AQFSAu4BPUo5LA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1681420913897?e=1739404800&v=beta&t=O3c1FwT8KK2KU_CyRGwY8nkjfVbiUyoFkIkBKOLh4tw",
-            role: "Graduate Student",
+            role: "Master student",
             social: {
                 linkedin: "https://www.linkedin.com/in/jiacheng-qiu-17361b1a0/",
                 website: "https://j8chiu.github.io/"
@@ -101,16 +101,23 @@ var team_list = {
         },
         "Yuliang Chen": {
             img: "https://media.licdn.com/dms/image/v2/D5635AQHq1GJl8iDULQ/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1691639938293?e=1734559200&v=beta&t=-B9eDUKjltH79cLRiQH9iEjLXEV6WgaUfxB6IOqaD7g",
-            role: "Graduate Student",
+            role: "Master student",
             social: {
                 linkedin: "https://www.linkedin.com/in/yuliang-chen-74666b236/"
             }
         },
         "Tamar Schaap": {
             img: "https://media.licdn.com/dms/image/v2/C4E03AQFwMkyDNjcMbw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1619428016564?e=1739404800&v=beta&t=Bl3mBdCRRCECyR6UbIO6T0gfIVRvAOfLqeZuN2Xsuq0",
-            role: "Graduate Student",
+            role: "Master student",
             social: {
                 linkedin: "https://www.linkedin.com/in/tamar-schaap/"
+            }
+        },
+        "Zixi Chen": {
+            img: "https://media.licdn.com/dms/image/v2/D5635AQHhdPBu3x64SA/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1734219093711?e=1735084800&v=beta&t=ubVt1a_ZxinuTDqZKZkopKTPgJJfYFyiPHdviPYxqsM",
+            role: "Master student",
+            social: {
+                linkedin: "https://www.linkedin.com/in/zixi-emily-chen/"
             }
         }
     },
