@@ -18,7 +18,7 @@ class TeamList extends React.Component {
     getTopFourSocialLinks(details) {
         // Define social links in priority order
         const socialLinks = [
-            { type: "google_scholar", icon: "bi bi-google", url: details.google_scholar },
+            { type: "google_scholar", icon: "ai ai-google-scholar-square", url: details.google_scholar },
             { type: "linkedin", icon: "bi bi-linkedin", url: details.linkedin },
             { type: "github", icon: "bi bi-github", url: details.github },
             { type: "website", icon: "bi bi-globe", url: details.website },

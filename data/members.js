@@ -14,7 +14,7 @@ var team_list = {
         category: "principal_investigator"
     },
     "Md Farhan Tasnim Oshim": {
-        img: "https://media.licdn.com/dms/image/v2/D4E35AQE1En4ECgy3NA/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1729101183653?e=1734559200&v=beta&t=qcJvqWs7EMwo6-jQYTXV13TPW0uLruPPjfGiN_MuwBc",
+        img: "https://media.licdn.com/dms/image/v2/D4E35AQE1En4ECgy3NA/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1729101183653?e=1735167600&v=beta&t=C9shm-RruWQ8fhn3Zawog0cYGZZFtgxVR2mujB0-odQ",
         role: "PhD Candidate",
         google_scholar: "https://scholar.google.com/citations?hl=en&user=JjF9FRwAAAAJ", 
         linkedin: "https://www.linkedin.com/in/farhanoshim/",
