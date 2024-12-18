@@ -7,26 +7,30 @@ var team_list = {
         role: "Assistant Professor",
         email: "trahman@ucsd.edu",
         affiliation: "Halıcıoğlu Data Science Institute, UCSD",
+        google_scholar: "https://scholar.google.com/citations?hl=en&user=mc9BzYwAAAAJ", 
         linkedin: "https://www.linkedin.com/in/tauhidur/",
         website: "https://www.tauhidurrahman.com/",
         cv: "https://drive.google.com/file/d/1Lu2SopXZLWya84NEnyDOXLeSSTTLJJeZ/view",
         category: "principal_investigator"
     },
-    "Farhan": {
+    "Md Farhan Tasnim Oshim": {
         img: "https://media.licdn.com/dms/image/v2/D4E35AQE1En4ECgy3NA/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1729101183653?e=1734559200&v=beta&t=qcJvqWs7EMwo6-jQYTXV13TPW0uLruPPjfGiN_MuwBc",
         role: "PhD Candidate",
+        google_scholar: "https://scholar.google.com/citations?hl=en&user=JjF9FRwAAAAJ", 
         linkedin: "https://www.linkedin.com/in/farhanoshim/",
         category: "current_students"
     },
     "Forsad Al Hossain": {
         img: "https://media.licdn.com/dms/image/v2/C4D03AQGasuImN_1yHQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1584890904613?e=1739404800&v=beta&t=CSx_I0WUz55wUROCr3TE5-CIxGgE3NLsFcTEDCWneq8",
         role: "PhD Candidate",
+        google_scholar: "https://scholar.google.com/citations?hl=en&user=KymgffIAAAAJ",
         linkedin: "https://www.linkedin.com/in/forsadalhossain/",
         category: "current_students"
     },
     "Zhongyang Zhang": {
         img: "https://media.licdn.com/dms/image/v2/D5635AQEpJvmK3xHnGQ/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1714789059707?e=1734573600&v=beta&t=IidHWBD3kTQEkfDV-t584jAzhzKl5XUM4SaHQSrs6BU",
         role: "PhD Candidate",
+        google_scholar: "https://scholar.google.com/citations?hl=en&user=MbaRrwIAAAAJ",
         linkedin: "https://www.linkedin.com/in/zhongyang-zhang-miracleyoo/",
         website: "https://zhongyangzhang.owlstown.net/",
         category: "current_students"
@@ -52,6 +56,7 @@ var team_list = {
     "Masfiqur Rahaman": {
         img: "https://media.licdn.com/dms/image/v2/D5603AQGPEsxvVCuObQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1700434209652?e=1739404800&v=beta&t=QCFZ8uZDxuyjyOAIdLaipe1GXbVskA7J9UvMwzf3R8U",
         role: "PhD Student",
+        google_scholar: "https://scholar.google.com/citations?hl=en&user=kO1x10QAAAAJ",
         linkedin: "https://www.linkedin.com/in/masfiqur-rahaman-14709716a/",
         category: "current_students"
     },
@@ -64,6 +69,7 @@ var team_list = {
     "Tanjid Hasan Tonmoy": {
         img: "https://media.licdn.com/dms/image/v2/D5603AQE1QNEtDE7QKw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1678138419571?e=1739404800&v=beta&t=RevT0i6eC9BJl61Ybrn0FOBueRV9kVFXFg0xrrc9csY",
         role: "PhD Student",
+        google_scholar: "https://scholar.google.com/citations?hl=en&user=FS1RmQsAAAAJ",
         linkedin: "https://www.linkedin.com/in/tanjid-hasan-tonmoy/",
         category: "current_students"
     },
@@ -77,32 +83,24 @@ var team_list = {
         google_scholar: "https://scholar.google.com/citations?user=KnSkUUYAAAAJ&hl=en",
         category: "current_students"
     },
-    "Avanti Bhandarkar": {
-        img: "https://ca.slack-edge.com/TB36W6R8V-U06STPADGEL-06fa36d08fac-192",
-        role: "Master student",
-        linkedin: "https://www.linkedin.com/in/avantibhandarkar/",
-        category: "current_students"
-    },
     "Jiacheng Qiu": {
         img: "https://media.licdn.com/dms/image/v2/D5603AQFSAu4BPUo5LA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1681420913897?e=1739404800&v=beta&t=O3c1FwT8KK2KU_CyRGwY8nkjfVbiUyoFkIkBKOLh4tw",
         role: "Master student",
         linkedin: "https://www.linkedin.com/in/jiacheng-qiu-17361b1a0/",
         website: "https://j8chiu.github.io/",
         category: "current_students"
-    },
-     
-    "Jiacheng Qiu": {
-        img: "https://media.licdn.com/dms/image/v2/D5603AQFSAu4BPUo5LA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1681420913897?e=1739404800&v=beta&t=O3c1FwT8KK2KU_CyRGwY8nkjfVbiUyoFkIkBKOLh4tw",
-        role: "Master student",
-        linkedin: "https://www.linkedin.com/in/jiacheng-qiu-17361b1a0/",
-        website: "https://j8chiu.github.io/",
-        category: "current_students"   
     },
     "Yuliang Chen": {
         img: "https://media.licdn.com/dms/image/v2/D5635AQHq1GJl8iDULQ/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1691639938293?e=1734559200&v=beta&t=-B9eDUKjltH79cLRiQH9iEjLXEV6WgaUfxB6IOqaD7g",
         role: "Master student",
         linkedin: "https://www.linkedin.com/in/yuliang-chen-74666b236/",
         category: "current_students"   
+    },
+    "Avanti Bhandarkar": {
+        img: "https://ca.slack-edge.com/TB36W6R8V-U06STPADGEL-06fa36d08fac-192",
+        role: "Master student",
+        linkedin: "https://www.linkedin.com/in/avantibhandarkar/",
+        category: "current_students"
     },
     "Zixi Chen": {
         img: "https://media.licdn.com/dms/image/v2/D5635AQHhdPBu3x64SA/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1734219093711?e=1735084800&v=beta&t=ubVt1a_ZxinuTDqZKZkopKTPgJJfYFyiPHdviPYxqsM",
@@ -113,6 +111,7 @@ var team_list = {
     "Manasa Kalanadhabhatta": {
         img: "https://media.licdn.com/dms/image/v2/D4D03AQEaKvhcjcP6Ew/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1728691581509?e=1739404800&v=beta&t=j4hFmtK46-n9bwnA-tipWrp94RvhzgIGDelRirjCUvU",
         role: "PhD Completed in 2024 \n Currently Research Scientist at Meta Reality Labs",
+        google_scholar: "https://scholar.google.com/citations?hl=en&user=99xIhk8AAAAJ",
         linkedin: "https://www.linkedin.com/in/manasakalanadhabhatta/",
         website: "https://manasa-kalanadhabhatta.github.io/",
         category: "alumni"  
@@ -120,6 +119,7 @@ var team_list = {
     "Bhanu Teja Gullapalli": {
         img: "https://media.licdn.com/dms/image/v2/C4D03AQGmsUWhk2E_8Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1658872757108?e=1739404800&v=beta&t=eSKbhBfnx3L8efH8vqFqvevQCOFdeky1MLfGvIm447g",
         role: "PhD Completed in 2024 \n Currently Postdoctoral Researcher in Harvard University",
+        google_scholar: "https://scholar.google.com/citations?hl=en&user=Jfoac8IAAAAJ",
         linkedin: "https://www.linkedin.com/in/bhanu-teja-gullapalli/",
         website: "https://bhanutejagullapalli.github.io/",
         category: "alumni"  

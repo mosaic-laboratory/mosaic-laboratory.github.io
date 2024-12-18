@@ -8,7 +8,7 @@ class ProjectLandingContributors extends React.Component {
         for (let item in project_list[window.project_name]["contributors"]) {
             var curr_contributor = project_list[window.project_name]["contributors"][item]
             list.push(
-                <li key={curr_contributor}>{curr_contributor} <a href="#">www.example.com</a></li>
+                <li key={curr_contributor}><a href={team_list[curr_contributor]["linkedin"]} target="_blank">{curr_contributor}</a>{team_list[curr_contributor]["role"]}</li>
             );
         }
 
