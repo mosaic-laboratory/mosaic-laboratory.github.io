@@ -14,9 +14,6 @@ var sponsor_list = {
     'nsf': {
         'img': "/assets/img/sponsors/nsf.png"
     },
-    'optum': {
-        'img': "/assets/img/sponsors/optum.png"
-    },
     'OptumLabs': {
         'img': "/assets/img/sponsors/OptumLabs.png"
     },

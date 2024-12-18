@@ -1,4 +1,31 @@
 var features = [
+
+    {
+        title: "YeLan: Neuromorphic High-Frequency 3D Dancing Pose Estimation in Dynamic Environment",
+        description: `YeLan is an event camera-based 3D human pose estimation system designed for dynamic and low-light environments, outperforming conventional RGB and RGB-Depth solutions in robustness and energy efficiency.`,
+        videoId: "xmqMgzqAxIM",
+        link: "https://www.youtube.com/watch?v=xmqMgzqAxIM",
+        points: [
+            "First event camera-based 3D dancing pose estimation system.",
+            "Operates effectively in low-light conditions and dynamic backgrounds.",
+            "Collected the world's first event camera dance dataset.",
+            "Developed a fully customizable motion-to-event physics-aware simulator.",
+            "Demonstrates robustness against clothing variations, background motion, occlusion, and lighting fluctuations.",
+        ],
+    },
+    {
+        title: "MechanoBeat: Monitoring Interactions with Everyday Objects using 3D Printed Harmonic Oscillators and Ultra-Wideband Radar",
+        description: `MechanoBeat uses 3D printed mechanical tags and ultra-wideband radar to monitor interactions with objects, enabling battery-free, scalable, and unobtrusive sensing of both stationary and mobile objects.`,
+        videoId: "ZXA_eKm_bR8",
+        link: "https://www.youtube.com/watch?v=ZXA_eKm_bR8",
+        points: [
+            "3D printed mechanical tags oscillate at unique frequencies upon interaction.",
+            "Monitors interactions without requiring batteries, silicon chips, or electronics.",
+            "Uses ultra-wideband (UWB) radar to locate and identify tag vibrations.",
+            "Capable of detecting simultaneous interactions with high accuracy, even in noisy environments.",
+            "Senses interactions behind walls using UWB radar in non-line-of-sight (NLOS) scenarios.",
+        ],
+    },
     {
         title: "EarlyScreen: Predicting Neural Activation & Psychopathology in Preschool Children",
         description: `Emotion dysregulation in early childhood is associated with a higher risk of psychopathological conditions, such as ADHD and mood and anxiety disorders. 
@@ -33,4 +60,6 @@ var features = [
             "Enables practical, cost-effective ISAR imaging of small everyday objects.",
         ],
     },
+    
+
 ];

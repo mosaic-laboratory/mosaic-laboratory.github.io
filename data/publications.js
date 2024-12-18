@@ -77,9 +77,20 @@ var publication_list = {
         "authors": "Zhongyang Zhang, Kaidong Chai, Haowen Yu, Ramzi Majaj, Francesca Walsh, Edward Wang, Upal Mahbub, Hava Siegelmann, Donghyun Kim, Tauhidur Rahman",
         "venue": "Neurocomputing 2023",
         "year": 2023,
-        "paper_pdf": "https://www.sciencedirect.com/science/article/pii/S0925231223005118",
+        "paper_pdf": "https://dl.acm.org/doi/abs/10.1145/3638550.3641133",
         "image": "/assets/img/publications/yelan_2023.png",
         'video': "https://www.youtube.com/watch?v=xmqMgzqAxIM"
+    },
+
+    //** To do */
+    "crowdotic_2024": {
+        "title": "Crowdotic: A Privacy-Preserving Hospital Waiting Room Crowd Density Estimation with Non-speech Audio",
+        "authors": "Forsad Al Hossain, Tanjid Hasan Tonmoy, Andrew A Lover, George A Corey, Mohammad Arif Ul Alam, Tauhidur Rahman",
+        "venue": "The 25th International Workshop on Mobile Computing Systems and Applications (HotMobile 2024)",
+        "year": 2023,
+        "paper_pdf": "https://dl.acm.org/doi/pdf/10.1145/3638550.3641133",
+        "image": "/assets/img/publications/crowdotic_2024.png", // Replace with correct image path
+     
     },
     // 2022
     "calico_2022": {
@@ -90,6 +101,28 @@ var publication_list = {
         "paper_pdf": "https://arxiv.org/abs/2208.08491",
         "image": "/assets/img/publications/calico_2022.png"
     },
+
+
+    "eulerian_motion_2022": {
+        "title": "Eulerian Phase-based Motion Magnification for High-Fidelity Vital Sign Estimation with Radar in Clinical Settings",
+        "authors": "Md Farhan Tasnim Oshim, Toral Surti, Charlotte Goldfine, Stephanie Carreiro, Deepak Ganesan, Suren Jayasuriya, Tauhidur Rahman",
+        "venue": "2022 IEEE Sensors",
+        "year": 2022,
+        "paper_pdf": "https://ieeexplore.ieee.org/abstract/document/9967051",
+        "image": "/assets/img/publications/eulerian_motion_2022.png", 
+       
+    },
+
+
+    "opioid_biomarkers_2022": {
+        "title": "Impact of Individual and Treatment Characteristics on Wearable Sensor-Based Digital Biomarkers of Opioid Use",
+        "authors": "Brittany P. Chapman, Bhanu Teja Gullapalli, Tauhidur Rahman, David Smelson, Edward W. Boyer, Stephanie Carreiro",
+        "venue": "npj Digital Medicine",
+        "year": 2022,
+        "paper_pdf": "https://www.nature.com/articles/s41746-022-00664-z",
+        "image": "/assets/img/publications/opioid_biomarkers_2022.png",       
+    },
+    
     "hyperspectral_image_super_resolution_2022": {
         "title": "Hyperspectral Image Super-Resolution in Arbitrary Input-Output Band Settings.",
         "authors": "Zhongyang Zhang, Zhiyang Xu, Zia Ahmed, Asif Salekin, Tauhidur Rahman",
