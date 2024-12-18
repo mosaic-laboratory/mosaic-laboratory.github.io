@@ -298,7 +298,10 @@ h6 {
   }
 
   .navmenu li:last-child a {
-    padding-right: 300px;
+    padding-right: 0px;
+  }
+  .navmenu li:first-child a {
+    padding-left: 100px;
   }
 
   .navmenu li:hover>a,
