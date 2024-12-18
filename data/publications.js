@@ -265,6 +265,6 @@ var publication_list = {
         'venue': "Proceedings of the 2015 ACM international joint conference on pervasive and ubiquitous computing",
         'year': 2016,
         'paper_pdf': "https://dl.acm.org/doi/abs/10.1145/2750858.2804280",
-        "image": "/assets/img/welcome-img.png"
+        "image": "/assets/img/publications/Dopplesleep2016.png"
     },
 }
