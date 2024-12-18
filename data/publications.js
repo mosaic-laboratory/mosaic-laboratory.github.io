@@ -217,14 +217,6 @@ var publication_list = {
         "paper_pdf": "https://www.academia.edu/download/88987763/2019_GetMobile_MobileSensing.pdf",
         "image": "/assets/img/publications/mobile_sensing_alertness_2020.png"
     },
-    "respiratory_rate_monitoring_2020": {
-        "title": "Respiratory Rate Monitoring in Clinical Environments with a Contactless Ultra-Wideband Impulse Radar-based Sensor System.",
-        "authors": "Goldfine*, Charlotte Oshim*, Md. Farhan Tasnim, Stephanie Carreiro, Brittany Chapman, Deepak Ganesan, Tauhidur Rahman",
-        "venue": "Hawaii International Conference on System Sciences 2020",
-        "year": 2020,
-        "paper_pdf": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6998801/",
-        "image": "/assets/img/publications/respiratory_rate_monitoring_2020.png"
-    },    
     // 2019
     'wince2019': {
         'title': "W!NCE: Unobtrusive Sensing of Upper Facial Action Units with EOG-based Eyewear.",
@@ -266,5 +258,13 @@ var publication_list = {
         'year': 2016,
         'paper_pdf': "https://dl.acm.org/doi/abs/10.1145/2994551.2994572",
         "image": "/assets/img/publications/nutrilyzer2016.png"
+    },
+    'Dopplesleep2016': {
+        'title': "Dopplesleep: A contactless unobtrusive sleep sensing system using short-range doppler radar",
+        'authors': "Tauhidur Rahman, Alexander T Adams, Ruth Vinisha Ravichandran, Mi Zhang, Shwetak N Patel, Julie A Kientz, Tanzeem Choudhury",
+        'venue': "Proceedings of the 2015 ACM international joint conference on pervasive and ubiquitous computing",
+        'year': 2016,
+        'paper_pdf': "https://dl.acm.org/doi/abs/10.1145/2750858.2804280",
+        "image": "/assets/img/welcome-img.png"
     },
 }
