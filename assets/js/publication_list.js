@@ -29,11 +29,25 @@ class PublicationList extends React.Component {
           // console.log(years);
         }
 
+        // for grouping the papers before a certain year
+        var early_group_year = 2017;
+        var early_year_met = false;
+
         years.forEach(year => {
           // Add a title for the year
-          list.push(
-            <h2 key={year} className="publication-year-title" id={year} data-aos="fade-up">{year}</h2>
-          );
+          if (year > early_group_year){
+            list.push(
+              <h2 key={year} className="publication-year-title" id={year} data-aos="fade-up">{year}</h2>
+            );
+          }
+          else {
+            if (!early_year_met){
+              list.push(
+                <h2 key={year} className="publication-year-title" id={year} data-aos="fade-up">{early_group_year} and before</h2>
+              );
+              early_year_met = true;
+            }
+          }
         
           // Render the publications for that year
           groupedByYear[year].forEach((publication, index) => {
