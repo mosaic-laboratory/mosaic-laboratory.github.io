@@ -91,7 +91,7 @@ var team_list = {
         category: "current_students"
     },
     "Yuliang Chen": {
-        img: "https://media.licdn.com/dms/image/v2/D5635AQHq1GJl8iDULQ/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1691639938293?e=1734559200&v=beta&t=-B9eDUKjltH79cLRiQH9iEjLXEV6WgaUfxB6IOqaD7g",
+        img: "https://media.licdn.com/dms/image/v2/D5635AQHq1GJl8iDULQ/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1691639938294?e=1735167600&v=beta&t=0niF3lLSGtYMIl37HsgdJXCHmgFaIrSDDcExPaJCZwo",
         role: "Master student",
         linkedin: "https://www.linkedin.com/in/yuliang-chen-74666b236/",
         category: "current_students"   
