@@ -267,4 +267,12 @@ var publication_list = {
         'paper_pdf': "https://dl.acm.org/doi/abs/10.1145/2750858.2804280",
         "image": "/assets/img/publications/Dopplesleep2016.png"
     },
+    'bodybeat2014': {
+        'title': "BodyBeat: A Mobile System for Sensing Non-Speech Body Sounds.",
+        'authors': "Tauhidur Rahman, Alexander Travis Adams, Mi Zhang, Erin Cherry, Bobby Zhou, Huaishu Peng, Tanzeem Choudhury.",
+        'venue': "MobiSys 2014",
+        'year': 2014,
+        'paper_pdf': "https://d1wqtxts1xzle7.cloudfront.net/46661463/BodyBeat_a_mobile_system_for_sensing_non20160620-18417-8er922-libre.pdf?1466480062=&response-content-disposition=inline%3B+filename%3DBodyBeat.pdf&Expires=1734560531&Signature=FN7KZw4MuYG3nGZcjNPbUHyPtT2CYCUp2ehZMb1mmYWES-HYmVOzmQg0jg5TeJ1ttXWsqcKDhtjKeLlyUVQwXaSAL415be5kbbRp4-WHyrkEAjAG4asFB48TzWax2gd8dMh~a22BlFAp9WqB4aw-gkW2x~vKVQLUwe~u4LlbdcF8zNT9mHrvaBhTmJacLcsb6UvWa5zARk~6I96OmLKhqX2eRU8Q9z0DtK9pl2a9ZBNy~RxwzGulOc2i6uKY86C0x~C0pHJ58f7vIyUfYSB0UDayGpqSamFB4zksy2N8VYXNWkbHQsZvKc8DKCrwp9~W6yUC4AaPecaiIcwuEusB-w__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA",
+        "image": "/assets/img/publications/bodybeat2014.png"
+    }
 }
