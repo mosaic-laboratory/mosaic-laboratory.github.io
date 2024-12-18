@@ -84,11 +84,11 @@ var team_list = {
                 cv: "https://yunfeiluo.github.io/update/yunfeiluo_CV.pdf", 
             }
         },
-        "Avanti Bhandarkar": {
-            img: "https://ca.slack-edge.com/TB36W6R8V-U06STPADGEL-06fa36d08fac-192",
-            role: "Master student",
+        "Tamar Schaap": {
+            img: "https://media.licdn.com/dms/image/v2/C4E03AQFwMkyDNjcMbw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1619428016564?e=1739404800&v=beta&t=Bl3mBdCRRCECyR6UbIO6T0gfIVRvAOfLqeZuN2Xsuq0",
+            role: "PhD Student",
             social: {
-                linkedin: "https://www.linkedin.com/in/avantibhandarkar/"
+                linkedin: "https://www.linkedin.com/in/tamar-schaap/"
             }
         },
         "Jiacheng Qiu": {
@@ -106,11 +106,11 @@ var team_list = {
                 linkedin: "https://www.linkedin.com/in/yuliang-chen-74666b236/"
             }
         },
-        "Tamar Schaap": {
-            img: "https://media.licdn.com/dms/image/v2/C4E03AQFwMkyDNjcMbw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1619428016564?e=1739404800&v=beta&t=Bl3mBdCRRCECyR6UbIO6T0gfIVRvAOfLqeZuN2Xsuq0",
+        "Avanti Bhandarkar": {
+            img: "https://ca.slack-edge.com/TB36W6R8V-U06STPADGEL-06fa36d08fac-192",
             role: "Master student",
             social: {
-                linkedin: "https://www.linkedin.com/in/tamar-schaap/"
+                linkedin: "https://www.linkedin.com/in/avantibhandarkar/"
             }
         },
         "Zixi Chen": {
