@@ -18,6 +18,7 @@ var team_list = {
         role: "PhD Candidate",
         google_scholar: "https://scholar.google.com/citations?hl=en&user=JjF9FRwAAAAJ", 
         linkedin: "https://www.linkedin.com/in/farhanoshim/",
+        website: "https://farhanoshim.github.io/",
         category: "current_students"
     },
     "Forsad Al Hossain": {
@@ -94,6 +95,7 @@ var team_list = {
         img: "https://media.licdn.com/dms/image/v2/D5635AQHq1GJl8iDULQ/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1691639938294?e=1735167600&v=beta&t=0niF3lLSGtYMIl37HsgdJXCHmgFaIrSDDcExPaJCZwo",
         role: "Master student",
         linkedin: "https://www.linkedin.com/in/yuliang-chen-74666b236/",
+        website: "https://yuc0805.github.io/",
         category: "current_students"   
     },
     "Avanti Bhandarkar": {
