@@ -63,6 +63,7 @@ class TeamList extends React.Component {
                                         borderRadius: "25%",
                                         backgroundColor: "#f0f0f0",
                                     }}
+                                    loading="lazy"
                                 />
                                 <div className="social">
                                     {this.getTopFourSocialLinks(details).map((link, idx) => (

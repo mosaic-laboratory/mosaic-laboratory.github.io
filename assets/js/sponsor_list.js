@@ -8,7 +8,7 @@ class SponsorList extends React.Component {
         for (let item in sponsor_list) {
             list.push(
                 <div className="col-xl-2 col-md-3 col-6 client-logo" id={item} key={item}>
-                    <img src={sponsor_list[item]["img"]} className="img-fluid" alt=""/>
+                    <img src={sponsor_list[item]["img"]} className="img-fluid" alt="" loading="lazy"/>
                 </div>
             );
         }

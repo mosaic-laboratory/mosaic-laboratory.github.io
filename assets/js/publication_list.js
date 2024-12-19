@@ -56,7 +56,7 @@ class PublicationList extends React.Component {
                 {/* Optional image on the left */}
                 {publication.image && (
                   <div className="publication-image">
-                    <img src={publication.image} alt={publication.title} />
+                    <img src={publication.image} alt={publication.title} loading="lazy"/>
                   </div>
                 )}
             

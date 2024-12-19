@@ -11,7 +11,7 @@ class ProjectList extends React.Component {
                     <article>
 
                     <div className="post-img">
-                        <a href={project_list[item]["landing_page"]}><img src={project_list[item]["image"]} alt="" className="img-fluid"/></a>
+                        <a href={project_list[item]["landing_page"]}><img src={project_list[item]["image"]} alt="" className="img-fluid" loading="lazy"/></a>
                     </div>
 
                     <p className="post-category">{project_list[item]["tags"]}</p>
