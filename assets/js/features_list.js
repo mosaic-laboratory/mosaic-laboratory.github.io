@@ -59,10 +59,9 @@ class FeaturesSection extends React.Component {
         return (
             <section id="features" className="features section">
                 <div className="container section-title" data-aos="fade-up">
-                    <h2>Features</h2>
+                    <h2>Spotlight</h2>
                     <a href="https://www.youtube.com/@mosaiclab-ucsd/videos" target="_blank">
-                    Explore our amazing features to learn more about how we
-                    deliver value and impact.
+                    Explore our groundbreaking research in action through featured videos
                     </a>
                 </div>
                 <div className="container">
