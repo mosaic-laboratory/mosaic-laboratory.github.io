@@ -20,4 +20,10 @@ var sponsor_list = {
     'Qualcomm': {
         'img': "/assets/img/sponsors/Qualcomm.png"
     },
+    'HDSI': {
+        'img': "/assets/img/sponsors/HDSI.png"
+    },
+    'umass': {
+        'img': "/assets/img/sponsors/umass.png"
+    },
 }

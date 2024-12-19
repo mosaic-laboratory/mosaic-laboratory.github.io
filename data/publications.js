@@ -61,6 +61,15 @@ var publication_list = {
         "code": "https://github.com/Information-Fusion-Lab-Umass/personalized-stress-prediction",
         "image": "/assets/img/publications/studentstress2024.png"
     },
+    //need to add image
+    'mentalhealth2024': {
+        'title': "Multi-stakeholder Perspectives on Mental Health Screening Tools for Children",
+        'authors': "Manasa Kalanadhabhatta, Adrelys Mateo Santana, Lynnea Mayorga, Tauhidur Rahman, Deepak Ganesan, Adam Grabell",
+        'venue': "CHI '24: Proceedings of the 2024 CHI Conference on Human Factors in Computing Systems",
+        'year': 2024,
+        'paper_pdf': "https://dl.acm.org/doi/full/10.1145/3613904.3642604",
+        "image": "/assets/img/publications/mentalhealth2024.png"
+    },
     'multinlp2024': {
         'title': "Start Simple: Progressive Difficulty Multitask Learning",
         'authors': "Yunfei Luo, Yuyang Liu, Rukai Cai, Tauhidur Rahman",
@@ -82,16 +91,43 @@ var publication_list = {
         'video': "https://www.youtube.com/watch?v=xmqMgzqAxIM"
     },
 
-    //** To do */
+    'ptsd2023': {
+        'title': "Detecting PTSD Using Neural and Physiological Signals: Recommendations from a Pilot Study",
+        'authors': "Manasa Kalanadhabhatta, Asif Salekin, Shaily Roy, Tauhidur Rahman, Trevor Grant, Dessa Bergen-Cico",
+        'venue': "ACII 2023: 11th International Conference on Affective Computing and Intelligent Interaction",
+        'year': 2023,
+        'paper_pdf': "https://manasa-kalanadhabhatta.github.io/assets/pdf/kalanadhabhatta_acii23.pdf",
+        "image": "/assets/img/publications/ptsd2023.png"
+    },
+
+   
     "crowdotic_2024": {
         "title": "Crowdotic: A Privacy-Preserving Hospital Waiting Room Crowd Density Estimation with Non-speech Audio",
         "authors": "Forsad Al Hossain, Tanjid Hasan Tonmoy, Andrew A Lover, George A Corey, Mohammad Arif Ul Alam, Tauhidur Rahman",
         "venue": "The 25th International Workshop on Mobile Computing Systems and Applications (HotMobile 2024)",
         "year": 2023,
         "paper_pdf": "https://dl.acm.org/doi/pdf/10.1145/3638550.3641133",
-        "image": "/assets/img/publications/crowdotic_2024.png", // Replace with correct image path
+        "image": "/assets/img/publications/crowdotic_2024.png",
      
     },
+    'thermalstress2023': {
+        'title': "Reading Between the Heat: Co-Teaching Body Thermal Signatures for Non-intrusive Stress Detection",
+        'authors': "Yi Xiao, Harshit Sharma, Zhongyang Zhang, Dessa Bergen-Cico, Tauhidur Rahman, Asif Salekin",
+        'venue': "PACM IMWUT (Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies)",
+        'year': 2023,
+        'paper_pdf': "https://dl.acm.org/doi/pdf/10.1145/3631441",
+        "image": "/assets/img/publications/thermalstress2023.png"
+    },
+
+    'psychscreen2022': {
+        'title': "Extracting Multimodal Embeddings via Supervised Contrastive Learning for Psychological Screening",
+        'authors': "Manasa Kalanadhabhatta, Adrelys Mateo Santana, Deepak Ganesan, Tauhidur Rahman, Adam Grabell",
+        'venue': "ACII 2022: 10th International Conference on Affective Computing & Intelligent Interaction",
+        'year': 2022,
+        'paper_pdf': "https://par.nsf.gov/servlets/purl/10389044",
+        "image": "/assets/img/publications/psychscreen2022.png"
+    },
+
     // 2022
     "calico_2022": {
         "title": "Calico: Track Based Interactive and Relocatable Wearables with Fast, Reliable, and Precise Locomotion.",
