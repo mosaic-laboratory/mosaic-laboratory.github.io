@@ -3,7 +3,7 @@
 
 var team_list = {
     "Tauhidur Rahman": {
-        img: "https://media.licdn.com/dms/image/v2/D4E03AQFWjiFYb7W9Lg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1644085775484?e=1739404800&v=beta&t=dStxTXWuaulC8d2lN5fvCD8iWUpx3cvRANIzacDST4M",
+        img: "/assets/img/team/Tauhidur Rahman.png",
         role: "Assistant Professor",
         email: "trahman@ucsd.edu",
         affiliation: "Halıcıoğlu Data Science Institute, UCSD",
@@ -28,7 +28,7 @@ var team_list = {
         category: "current_students"
     },
     "Zhongyang Zhang": {
-        img: "https://media.licdn.com/dms/image/v2/D5635AQEpJvmK3xHnGQ/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1714789059707?e=1734573600&v=beta&t=IidHWBD3kTQEkfDV-t584jAzhzKl5XUM4SaHQSrs6BU",
+        img: "/assets/img/team/Zhongyang Zhang.png",
         role: "PhD Candidate",
         google_scholar: "https://scholar.google.com/citations?hl=en&user=MbaRrwIAAAAJ",
         linkedin: "https://www.linkedin.com/in/zhongyang-zhang-miracleyoo/",

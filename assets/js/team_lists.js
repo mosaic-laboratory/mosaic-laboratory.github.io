@@ -52,7 +52,8 @@ class TeamList extends React.Component {
                         >
                             <div className="member-img">
                                 <img
-                                    src={details.img || 'assets/img/default-avatar.png'}
+                                    // src={details.img || 'assets/img/default-avatar.png'}
+                                    src={"/assets/img/team/" + name + ".png"}
                                     className="img-fluid"
                                     alt={name}
                                     style={{
