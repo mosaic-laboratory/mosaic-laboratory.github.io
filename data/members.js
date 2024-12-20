@@ -59,6 +59,7 @@ var team_list = {
         role: "PhD Student",
         google_scholar: "https://scholar.google.com/citations?hl=en&user=kO1x10QAAAAJ",
         linkedin: "https://www.linkedin.com/in/masfiqur-rahaman-14709716a/",
+        website: "https://masfiqur-rahaman.github.io/",
         category: "current_students"
     },
     "Nigel Doering": {
