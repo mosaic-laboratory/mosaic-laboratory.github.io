@@ -21,21 +21,6 @@ var team_list = {
         website: "https://farhanoshim.github.io/",
         category: "current_students"
     },
-    "Forsad Al Hossain": {
-        img: "https://media.licdn.com/dms/image/v2/C4D03AQGasuImN_1yHQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1584890904613?e=1739404800&v=beta&t=CSx_I0WUz55wUROCr3TE5-CIxGgE3NLsFcTEDCWneq8",
-        role: "PhD Candidate",
-        google_scholar: "https://scholar.google.com/citations?hl=en&user=KymgffIAAAAJ",
-        linkedin: "https://www.linkedin.com/in/forsadalhossain/",
-        category: "current_students"
-    },
-    "Zhongyang Zhang": {
-        img: "/assets/img/team/Zhongyang Zhang.png",
-        role: "PhD Candidate",
-        google_scholar: "https://scholar.google.com/citations?hl=en&user=MbaRrwIAAAAJ",
-        linkedin: "https://www.linkedin.com/in/zhongyang-zhang-miracleyoo/",
-        website: "https://zhongyangzhang.owlstown.net/",
-        category: "current_students"
-    },
     "Caden Stewart": {
         img: "https://ca.slack-edge.com/TB36W6R8V-U07HV9YUG7R-0146167527a7-192",
         role: "PhD Student",
@@ -85,19 +70,11 @@ var team_list = {
         google_scholar: "https://scholar.google.com/citations?user=KnSkUUYAAAAJ&hl=en",
         category: "current_students"
     },
-    "Jiacheng Qiu": {
-        img: "https://media.licdn.com/dms/image/v2/D5603AQFSAu4BPUo5LA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1681420913897?e=1739404800&v=beta&t=O3c1FwT8KK2KU_CyRGwY8nkjfVbiUyoFkIkBKOLh4tw",
-        role: "Master student",
-        linkedin: "https://www.linkedin.com/in/jiacheng-qiu-17361b1a0/",
-        website: "https://j8chiu.github.io/",
+    "Rahath Malladi": {
+        img: "https://media.licdn.com/dms/image/v2/C4D03AQGCr-KtRk5VTA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1657537182168?e=1739404800&v=beta&t=r8U4AY6hLLJk_Jecz_jerwmvLhpXuHFNnco9MCA8_BY",
+        role: "PhD Student",
+        linkedin: "https://www.linkedin.com/in/rahath-malladi/",
         category: "current_students"
-    },
-    "Yuliang Chen": {
-        img: "https://media.licdn.com/dms/image/v2/D5635AQHq1GJl8iDULQ/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1691639938294?e=1735167600&v=beta&t=0niF3lLSGtYMIl37HsgdJXCHmgFaIrSDDcExPaJCZwo",
-        role: "Master student",
-        linkedin: "https://www.linkedin.com/in/yuliang-chen-74666b236/",
-        website: "https://yuc0805.github.io/",
-        category: "current_students"   
     },
     "Avanti Bhandarkar": {
         img: "https://ca.slack-edge.com/TB36W6R8V-U06STPADGEL-06fa36d08fac-192",
@@ -105,11 +82,21 @@ var team_list = {
         linkedin: "https://www.linkedin.com/in/avantibhandarkar/",
         category: "current_students"
     },
-    "Zixi Chen": {
-        img: "https://media.licdn.com/dms/image/v2/D5635AQHhdPBu3x64SA/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1734219093711?e=1735084800&v=beta&t=ubVt1a_ZxinuTDqZKZkopKTPgJJfYFyiPHdviPYxqsM",
-        role: "Master student",
-        linkedin: "https://www.linkedin.com/in/zixi-emily-chen/",
-        category: "current_students"   
+    // Alumini start here
+    "Forsad Al Hossain": {
+        img: "https://media.licdn.com/dms/image/v2/C4D03AQGasuImN_1yHQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1584890904613?e=1739404800&v=beta&t=CSx_I0WUz55wUROCr3TE5-CIxGgE3NLsFcTEDCWneq8",
+        role: "PhD Completed in 2025 \n Currently Research Scientist at Stripe",
+        google_scholar: "https://scholar.google.com/citations?hl=en&user=KymgffIAAAAJ",
+        linkedin: "https://www.linkedin.com/in/forsadalhossain/",
+        category: "alumni"
+    },
+    "Zhongyang Zhang": {
+        img: "/assets/img/team/Zhongyang Zhang.png",
+        role: "PhD Completed in 2025 \n Currently Research Scientist at Qualcomm",
+        google_scholar: "https://scholar.google.com/citations?hl=en&user=MbaRrwIAAAAJ",
+        linkedin: "https://www.linkedin.com/in/zhongyang-zhang-miracleyoo/",
+        website: "https://zhongyangzhang.owlstown.net/",
+        category: "alumni"
     },
     "Manasa Kalanadhabhatta": {
         img: "https://media.licdn.com/dms/image/v2/D4D03AQEaKvhcjcP6Ew/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1728691581509?e=1739404800&v=beta&t=j4hFmtK46-n9bwnA-tipWrp94RvhzgIGDelRirjCUvU",
@@ -126,7 +113,6 @@ var team_list = {
         linkedin: "https://www.linkedin.com/in/bhanu-teja-gullapalli/",
         website: "https://bhanutejagullapalli.github.io/",
         category: "alumni"  
-
     },
     "Shuyang Cui":{
         img: "https://media.licdn.com/dms/image/v2/D5635AQFkM1fNx8_YMQ/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1693908765588?e=1735084800&v=beta&t=DrCxczKvgSLZovVEO0l5KY1DDx4Fhp3v8Naac8do5Xo",
@@ -134,6 +120,27 @@ var team_list = {
         linkedin: "https://www.linkedin.com/in/shuyang-cui-b35b1224b/",
         category: "alumni"  
     },
+    "Zixi Chen": {
+        img: "https://media.licdn.com/dms/image/v2/D5635AQHhdPBu3x64SA/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1734219093711?e=1735084800&v=beta&t=ubVt1a_ZxinuTDqZKZkopKTPgJJfYFyiPHdviPYxqsM",
+        role: "Master Completed in 2025 \n Currently Engineer at Meta",
+        linkedin: "https://www.linkedin.com/in/zixi-emily-chen/",
+        category: "alumni"   
+    },
+    "Jiacheng Qiu": {
+        img: "https://media.licdn.com/dms/image/v2/D5603AQFSAu4BPUo5LA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1681420913897?e=1739404800&v=beta&t=O3c1FwT8KK2KU_CyRGwY8nkjfVbiUyoFkIkBKOLh4tw",
+        role: "Master Completed in 2025 \n Currently PhD Student at Stony Brook University",
+        linkedin: "https://www.linkedin.com/in/jiacheng-qiu-17361b1a0/",
+        website: "https://j8chiu.github.io/",
+        category: "alumni"
+    },
+    "Yuliang Chen": {
+        img: "https://media.licdn.com/dms/image/v2/D5635AQHq1GJl8iDULQ/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1691639938294?e=1735167600&v=beta&t=0niF3lLSGtYMIl37HsgdJXCHmgFaIrSDDcExPaJCZwo",
+        role: "Master Completed in 2025 \n Currently PhD Student at Dartmouth College",
+        linkedin: "https://www.linkedin.com/in/yuliang-chen-74666b236/",
+        website: "https://yuc0805.github.io/",
+        category: "alumni"   
+    },
+    // visiting scholar here
     "Amol Harsh": {
         img: "https://media.licdn.com/dms/image/v2/D4D03AQHwYBx_qYNfEg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1696588935237?e=1739404800&v=beta&t=g5lPLYsglxWCSyubChEdNGcw-mPFymnwktFBigznOjg",
         role: "Undergraduate Student",
@@ -148,12 +155,6 @@ var team_list = {
         github: "https://github.com/KAUSTUBH140303",
         category: "visiting_scholars"
     },
-    "Rahath Malladi": {
-        img: "https://media.licdn.com/dms/image/v2/C4D03AQGCr-KtRk5VTA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1657537182168?e=1739404800&v=beta&t=r8U4AY6hLLJk_Jecz_jerwmvLhpXuHFNnco9MCA8_BY",
-        role: "Undergraduate Student",
-        linkedin: "https://www.linkedin.com/in/rahath-malladi/",
-        category: "visiting_scholars"
-    }
 };
       
       
