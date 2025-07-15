@@ -1,5 +1,33 @@
 // slide, video, etc.
 var publication_list = {
+    // 2025 papers
+    'tonmoy2025aerosafe': {
+        'title': "AeroSafe: Mobile Indoor Air Purification Using Aerosol Residence Time Analysis and Robotic Cough Emulator Testbed",
+        'authors': "Tanjid Hasan Tonmoy, Rahath Malladi, Kaustubh Singh, Forsad AI Hossain, Rajesh Gupta, Andres Tejada Martinez, and Tauhidur Rahman",
+        'venue': "IEEE ICRA",
+        'year': 2025,
+        'video': "https://www.youtube.com/watch?v=E62U6JrbmOc",
+        "poster": "https://www.canva.com/design/DAGnXPr3CtE/pFMmI-gj6kEjdBG_FOL0Rg/view?utm_content=DAGnXPr3CtE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=haa6a5a25e3",
+        "image": "/assets/img/publications/tonmoy2025aerosafe.png"
+    },
+    'oshim2025anti': {
+        'title': "Anti-Sensing: Defense against Unauthorized Radar-based Human Vital Sign Sensing with Physically Realizable Wearable Oscillators",
+        'authors': "Oshim, Md Farhan Tasnim and Doering, Nigel and Islam, Bashima and Weng, Tsui-Wei and Rahman, Tauhidur",
+        'venue': "IEEE ICRA",
+        'year': 2025,
+        'paper_pdf': "https://arxiv.org/abs/2505.10864",
+        "poster": "https://drive.google.com/file/d/1_UyDmFVIdVLlmq5EnQ5jbsqZsBd-Vd0y/view",
+        "image": "/assets/img/publications/oshim2025anti.png"
+    },
+    'gullapalli2025opioid': {
+        'title': "Opioid Misuse Detection from Cognitive and Physiological Data with Temporal Fusion Deep Learning",
+        'authors': "Gullapalli, Bhanu and Luo, Yunfei and Rahman, Tauhidur and Garland, Eric L",
+        'venue': "Drug and Alcohol Dependence",
+        'year': 2025,
+        'paper_pdf': "https://www.sciencedirect.com/science/article/pii/S0376871625002273",
+        "image": "/assets/img/publications/gullapalli2025opioid.png"
+    },
+    // 2024 papers
     'playlogue2024': {
         'title': "Playlogue: Dataset and Benchmarks for Analyzing Adult-Child Conversations During Play",
         'authors': "Manasa Kalanadhabhatta, Mohammad Mehdi Rastikerdar, Tauhidur Rahman, Adam S Grabell, Deepak Ganesan",
