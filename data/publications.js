@@ -4,7 +4,7 @@ var publication_list = {
     'tonmoy2025aerosafe': {
         'title': "AeroSafe: Mobile Indoor Air Purification Using Aerosol Residence Time Analysis and Robotic Cough Emulator Testbed",
         'authors': "Tanjid Hasan Tonmoy, Rahath Malladi, Kaustubh Singh, Forsad AI Hossain, Rajesh Gupta, Andres Tejada Martinez, and Tauhidur Rahman",
-        'venue': "IEEE ICRA",
+        'venue': "IEEE ICRA 2025",
         'year': 2025,
         'video': "https://www.youtube.com/watch?v=E62U6JrbmOc",
         "poster": "https://www.canva.com/design/DAGnXPr3CtE/pFMmI-gj6kEjdBG_FOL0Rg/view?utm_content=DAGnXPr3CtE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=haa6a5a25e3",
@@ -13,7 +13,7 @@ var publication_list = {
     'oshim2025anti': {
         'title': "Anti-Sensing: Defense against Unauthorized Radar-based Human Vital Sign Sensing with Physically Realizable Wearable Oscillators",
         'authors': "Oshim, Md Farhan Tasnim and Doering, Nigel and Islam, Bashima and Weng, Tsui-Wei and Rahman, Tauhidur",
-        'venue': "IEEE ICRA",
+        'venue': "IEEE ICRA 2025",
         'year': 2025,
         'paper_pdf': "https://arxiv.org/abs/2505.10864",
         "poster": "https://drive.google.com/file/d/1_UyDmFVIdVLlmq5EnQ5jbsqZsBd-Vd0y/view",
