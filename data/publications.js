@@ -3,7 +3,7 @@ var publication_list = {
     // 2025 papers
     'zhang2024predicting': {
         'title': "Predicting Quality of Video Gaming Experience Using Global-Scale Telemetry Data and Federated Learning",
-        'authors': "Tanjid Hasan Tonmoy, Rahath Malladi, Kaustubh Singh, Forsad AI Hossain, Rajesh Gupta, Andres Tejada Martinez, and Tauhidur Rahman",
+        'authors': "Zhongyang Zhang, Jinhe Wen, Zixi Chen, Dara Arbab, Sruti Sahani, Kent Giard, Bijan Arbab, Haojian Jin, Tauhidur Rahman",
         'venue': "Proceedings of the ACM on Human-Computer Interaction Journal (PACM HCI), invited to present at CHI PLAY 2025",
         'year': 2025,
         'paper_pdf': "https://arxiv.org/abs/2412.08950",
