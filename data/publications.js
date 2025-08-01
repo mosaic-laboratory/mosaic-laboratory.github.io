@@ -1,6 +1,14 @@
 // slide, video, etc.
 var publication_list = {
     // 2025 papers
+    'zhang2024predicting': {
+        'title': "Predicting Quality of Video Gaming Experience Using Global-Scale Telemetry Data and Federated Learning",
+        'authors': "Tanjid Hasan Tonmoy, Rahath Malladi, Kaustubh Singh, Forsad AI Hossain, Rajesh Gupta, Andres Tejada Martinez, and Tauhidur Rahman",
+        'venue': "Proceedings of the ACM on Human-Computer Interaction Journal (PACM HCI), invited to present at CHI PLAY 2025",
+        'year': 2025,
+        'paper_pdf': "https://arxiv.org/abs/2412.08950",
+        "image": "/assets/img/publications/zhang2024predicting.png"
+    },
     'tonmoy2025aerosafe': {
         'title': "AeroSafe: Mobile Indoor Air Purification Using Aerosol Residence Time Analysis and Robotic Cough Emulator Testbed",
         'authors': "Tanjid Hasan Tonmoy, Rahath Malladi, Kaustubh Singh, Forsad AI Hossain, Rajesh Gupta, Andres Tejada Martinez, and Tauhidur Rahman",
