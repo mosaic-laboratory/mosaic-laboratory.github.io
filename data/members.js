@@ -76,12 +76,6 @@ var team_list = {
         linkedin: "https://www.linkedin.com/in/rahath-malladi/",
         category: "current_students"
     },
-    "Avanti Bhandarkar": {
-        img: "https://ca.slack-edge.com/TB36W6R8V-U06STPADGEL-06fa36d08fac-192",
-        role: "Master student",
-        linkedin: "https://www.linkedin.com/in/avantibhandarkar/",
-        category: "current_students"
-    },
     // Alumini start here
     "Forsad Al Hossain": {
         img: "https://media.licdn.com/dms/image/v2/C4D03AQGasuImN_1yHQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1584890904613?e=1739404800&v=beta&t=CSx_I0WUz55wUROCr3TE5-CIxGgE3NLsFcTEDCWneq8",
@@ -114,6 +108,12 @@ var team_list = {
         website: "https://bhanutejagullapalli.github.io/",
         category: "alumni"  
     },
+    "Avanti Bhandarkar": {
+        img: "https://ca.slack-edge.com/TB36W6R8V-U06STPADGEL-06fa36d08fac-192",
+        role: "Masters Completed in 2025 \n PhD student, ECE, UCSD",
+        linkedin: "https://www.linkedin.com/in/avantibhandarkar/",
+        category: "alumni"
+    },
     "Shuyang Cui":{
         img: "https://media.licdn.com/dms/image/v2/D5635AQFkM1fNx8_YMQ/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1693908765588?e=1735084800&v=beta&t=DrCxczKvgSLZovVEO0l5KY1DDx4Fhp3v8Naac8do5Xo",
         role:"Masters Completed in 2024 \n Works for SONY Inc. in Japan",
@@ -122,7 +122,7 @@ var team_list = {
     },
     "Zixi Chen": {
         img: "https://media.licdn.com/dms/image/v2/D5635AQHhdPBu3x64SA/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1734219093711?e=1735084800&v=beta&t=ubVt1a_ZxinuTDqZKZkopKTPgJJfYFyiPHdviPYxqsM",
-        role: "Master Completed in 2025 \n Currently Engineer at Meta",
+        role: "Master Completed in 2025 \n Currently Engineer at Meta Reality Labs",
         linkedin: "https://www.linkedin.com/in/zixi-emily-chen/",
         category: "alumni"   
     },

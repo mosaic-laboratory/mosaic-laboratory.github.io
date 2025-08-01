@@ -35,6 +35,14 @@ var publication_list = {
         'paper_pdf': "https://www.sciencedirect.com/science/article/pii/S0376871625002273",
         "image": "/assets/img/publications/gullapalli2025opioid.png"
     },
+    'andrew2025sound': {
+        'title': "Sounding out Dysphagia: Using a Digital Stethoscope to Assess Audiometric Differences in Swallowing.",
+        'authors': "Andrew Yousef, Sacha Moufarrej, David Zeng, Bao Luu, Rong Xing, James S. Crook, Yunfei Luo, Kristen Linnemeyer-Risser, Tauhidur Rahman and Philip A Weissbrod",
+        'venue': "The Laryngoscope",
+        'year': 2025,
+        // 'paper_pdf': "https://arxiv.org/abs/2412.08950",
+        "image": "/assets/img/welcome-img.png"
+    },
     // 2024 papers
     'playlogue2024': {
         'title': "Playlogue: Dataset and Benchmarks for Analyzing Adult-Child Conversations During Play",
