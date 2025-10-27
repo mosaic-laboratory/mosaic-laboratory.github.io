@@ -1,6 +1,35 @@
 // slide, video, etc.
 var publication_list = {
     // 2025 papers
+    'luo2025entropyopioid': {
+        'title': "Personalized entropy-informed deep learning for identifying opioid misuse",
+        'authors': "Yunfei Luo, Iman Deznabi, Bhanu Gullapalli, Mark Tuomenoksa, Madalina Fiterau, Eric Garland and Tauhidur Rahman",
+        'venue': "Nature Mental Health",
+        'year': 2025,
+        "image": "/assets/img/publications/luo2025entropyopioid.png"
+    },
+    'tonmoy2025omniflow': {
+        'title': "OmniFlow: A Framework for Generalizable Surrogates for Real-Time Airflow Simulation and Control in Unseen Indoor Environments",
+        'authors': "M Tanjid Hasan Tonmoy, Upal Mahbub, and Tauhidur Rahman",
+        'venue': "BuildSys 2025",
+        'year': 2025,
+        "image": "/assets/img/publications/tonmoy2025omniflow.png"
+    },
+    'manasa2025tandem': {
+        'title': "Tandem: Behavior Assessment Using Multimodal Signals from the Parent-Child Dyad",
+        'authors': "Manasa Kalanadhabhatta, Tauhidur Rahman, Adam S Grabell, and Deepak Ganesan",
+        'venue': "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT 2025)",
+        'year': 2025,
+        "image": "/assets/img/publications/manasa2025tandem.png"
+    },
+    'masfiq2025rickshaw': {
+        'title': "Forecasting Occupational Survivability of Rickshaw Pullers in a Changing Climate with Wearable Data",
+        'authors': "Masfiqur Rahaman, Maoyejatun Hasana, Shahad Shahriar Rahman, MD. Sajid Mostafiz Noor, Razin Reaz Abedin, Md Toki Tahmid, Duncan Watson Paris, Tanzeem Choudhury, A. B. M. Alim Al Islam, and Tauhidur Rahman.",
+        'venue': "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT 2025)",
+        'year': 2025,
+        "video": "https://www.youtube.com/watch?v=17eN0Fuo4QM",
+        "image": "/assets/img/publications/masfiq2025rickshaw.png"
+    },
     'zhang2024predicting': {
         'title': "Predicting Quality of Video Gaming Experience Using Global-Scale Telemetry Data and Federated Learning",
         'authors': "Zhongyang Zhang, Jinhe Wen, Zixi Chen, Dara Arbab, Sruti Sahani, Kent Giard, Bijan Arbab, Haojian Jin, Tauhidur Rahman",
@@ -40,7 +69,7 @@ var publication_list = {
         'authors': "Andrew Yousef, Sacha Moufarrej, David Zeng, Bao Luu, Rong Xing, James S. Crook, Yunfei Luo, Kristen Linnemeyer-Risser, Tauhidur Rahman and Philip A Weissbrod",
         'venue': "The Laryngoscope",
         'year': 2025,
-        // 'paper_pdf': "https://arxiv.org/abs/2412.08950",
+        'paper_pdf': "https://onlinelibrary.wiley.com/doi/full/10.1002/lary.70012",
         "image": "/assets/img/welcome-img.png"
     },
     // 2024 papers
