@@ -1,13 +1,23 @@
 // slide, video, etc.
 var publication_list = {
-    // 2025 papers
+    // 2026 papers
+    'luo2024toward': {
+        'title': "Toward Foundation Model for Multivariate Wearable Sensing of Physiological Signals",
+        'authors': "Yunfei Luo, Yuliang Chen, Asif Salekin, and Tauhidur Rahman",
+        'venue': "(In Press) ACM Transactions on Computing for Healthcare (HEALTH)",
+        'year': 2026,
+        'paper_pdf': 'https://arxiv.org/abs/2412.09758',
+        "image": "/assets/img/publications/luo2024toward.png"
+    },
     'luo2025entropyopioid': {
         'title': "Personalized entropy-informed deep learning for identifying opioid misuse",
         'authors': "Yunfei Luo, Iman Deznabi, Bhanu Gullapalli, Mark Tuomenoksa, Madalina Fiterau, Eric Garland and Tauhidur Rahman",
         'venue': "Nature Mental Health",
-        'year': 2025,
+        'year': 2026,
+        'paper_pdf': 'https://www.nature.com/articles/s44220-025-00555-8',
         "image": "/assets/img/publications/luo2025entropyopioid.png"
     },
+    // 2025 papers
     'tonmoy2025omniflow': {
         'title': "OmniFlow: A Framework for Generalizable Surrogates for Real-Time Airflow Simulation and Control in Unseen Indoor Environments",
         'authors': "M Tanjid Hasan Tonmoy, Upal Mahbub, and Tauhidur Rahman",
