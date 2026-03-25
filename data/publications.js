@@ -6,7 +6,8 @@ var publication_list = {
         'authors': "Yunfei Luo, Yuliang Chen, Asif Salekin, and Tauhidur Rahman",
         'venue': "(In Press) ACM Transactions on Computing for Healthcare (HEALTH)",
         'year': 2026,
-        'paper_pdf': 'https://arxiv.org/abs/2412.09758',
+        'paper_pdf': 'https://dl.acm.org/doi/10.1145/3803808',
+        'video': "https://www.youtube.com/watch?v=jvwWaYaLL7M",
         "image": "/assets/img/publications/luo2024toward.png"
     },
     'luo2025entropyopioid': {
