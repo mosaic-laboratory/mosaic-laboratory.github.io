@@ -10,7 +10,7 @@ var team_list = {
         google_scholar: "https://scholar.google.com/citations?hl=en&user=mc9BzYwAAAAJ", 
         linkedin: "https://www.linkedin.com/in/tauhidur/",
         website: "https://www.tauhidurrahman.com/",
-        cv: "https://drive.google.com/file/d/1S20nMceS6RDUZlZjQYNmpqwKmBm4uzQd/view?usp=sharing",
+        cv: "https://drive.google.com/file/d/1qz9lKG-jAjGxE1D7CDtVabZpJHpnNeZv/view",
         category: "principal_investigator"
     },
     "Md Farhan Tasnim Oshim": {
