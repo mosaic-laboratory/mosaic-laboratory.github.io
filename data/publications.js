@@ -7,6 +7,7 @@ var publication_list = {
         'venue': "ACM Transactions on Computing for Healthcare (HEALTH)",
         'year': 2026,
         'paper_pdf': 'https://dl.acm.org/doi/10.1145/3803808',
+        'code': "https://huggingface.co/collections/mosaic-laboratory/normwear",
         'video': "https://www.youtube.com/watch?v=jvwWaYaLL7M",
         "image": "/assets/img/publications/luo2024toward.png"
     },
@@ -16,6 +17,7 @@ var publication_list = {
         'venue': "Nature Mental Health",
         'year': 2026,
         'paper_pdf': 'https://www.nature.com/articles/s44220-025-00555-8',
+        'video': "https://www.youtube.com/watch?v=k1vr-2bECdw",
         "image": "/assets/img/publications/luo2025entropyopioid.png"
     },
     // 2025 papers
