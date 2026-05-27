@@ -4,7 +4,7 @@ var publication_list = {
     'luo2024toward': {
         'title': "Toward Foundation Model for Multivariate Wearable Sensing of Physiological Signals",
         'authors': "Yunfei Luo, Yuliang Chen, Asif Salekin, and Tauhidur Rahman",
-        'venue': "(In Press) ACM Transactions on Computing for Healthcare (HEALTH)",
+        'venue': "ACM Transactions on Computing for Healthcare (HEALTH)",
         'year': 2026,
         'paper_pdf': 'https://dl.acm.org/doi/10.1145/3803808',
         'video': "https://www.youtube.com/watch?v=jvwWaYaLL7M",
