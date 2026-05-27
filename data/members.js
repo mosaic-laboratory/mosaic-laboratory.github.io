@@ -13,14 +13,6 @@ var team_list = {
         cv: "https://drive.google.com/file/d/1qz9lKG-jAjGxE1D7CDtVabZpJHpnNeZv/view",
         category: "principal_investigator"
     },
-    "Md Farhan Tasnim Oshim": {
-        img: "https://media.licdn.com/dms/image/v2/D4E35AQE1En4ECgy3NA/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1729101183653?e=1735167600&v=beta&t=C9shm-RruWQ8fhn3Zawog0cYGZZFtgxVR2mujB0-odQ",
-        role: "PhD Candidate",
-        google_scholar: "https://scholar.google.com/citations?hl=en&user=JjF9FRwAAAAJ", 
-        linkedin: "https://www.linkedin.com/in/farhanoshim/",
-        website: "https://farhanoshim.github.io/",
-        category: "current_students"
-    },
     "Caden Stewart": {
         img: "https://ca.slack-edge.com/TB36W6R8V-U07HV9YUG7R-0146167527a7-192",
         role: "PhD Student",
@@ -77,6 +69,14 @@ var team_list = {
         category: "current_students"
     },
     // Alumini start here
+    "Md Farhan Tasnim Oshim": {
+        img: "https://media.licdn.com/dms/image/v2/D4E35AQE1En4ECgy3NA/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1729101183653?e=1735167600&v=beta&t=C9shm-RruWQ8fhn3Zawog0cYGZZFtgxVR2mujB0-odQ",
+        role: "PhD Completed in 2026 \n Currently Assistant Professor at Bard College",
+        google_scholar: "https://scholar.google.com/citations?hl=en&user=JjF9FRwAAAAJ", 
+        linkedin: "https://www.linkedin.com/in/farhanoshim/",
+        website: "https://farhanoshim.github.io/",
+        category: "alumni"
+    },
     "Forsad Al Hossain": {
         img: "https://media.licdn.com/dms/image/v2/C4D03AQGasuImN_1yHQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1584890904613?e=1739404800&v=beta&t=CSx_I0WUz55wUROCr3TE5-CIxGgE3NLsFcTEDCWneq8",
         role: "PhD Completed in 2025 \n Currently Research Scientist at Stripe",

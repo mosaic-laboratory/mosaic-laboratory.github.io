@@ -24,6 +24,7 @@ var publication_list = {
         'authors': "M Tanjid Hasan Tonmoy, Upal Mahbub, and Tauhidur Rahman",
         'venue': "BuildSys 2025",
         'year': 2025,
+        'paper_pdf': 'https://dl.acm.org/doi/10.1145/3736425.3770117',
         "image": "/assets/img/publications/tonmoy2025omniflow.png"
     },
     'manasa2025tandem': {
@@ -31,6 +32,7 @@ var publication_list = {
         'authors': "Manasa Kalanadhabhatta, Tauhidur Rahman, Adam S Grabell, and Deepak Ganesan",
         'venue': "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT 2025)",
         'year': 2025,
+        'paper_pdf': 'https://dl.acm.org/doi/10.1145/3770705',
         "image": "/assets/img/publications/manasa2025tandem.png"
     },
     'masfiq2025rickshaw': {
@@ -38,6 +40,7 @@ var publication_list = {
         'authors': "Masfiqur Rahaman, Maoyejatun Hasana, Shahad Shahriar Rahman, MD. Sajid Mostafiz Noor, Razin Reaz Abedin, Md Toki Tahmid, Duncan Watson Paris, Tanzeem Choudhury, A. B. M. Alim Al Islam, and Tauhidur Rahman.",
         'venue': "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT 2025)",
         'year': 2025,
+        'paper_pdf': 'https://dl.acm.org/doi/10.1145/3770712',
         "video": "https://www.youtube.com/watch?v=17eN0Fuo4QM",
         "image": "/assets/img/publications/masfiq2025rickshaw.png"
     },
