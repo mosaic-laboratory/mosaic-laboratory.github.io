@@ -1,6 +1,14 @@
 // slide, video, etc.
 var publication_list = {
     // 2026 papers
+    'rahman2026from': {
+        'title': "From Wearable Data to Risk Literacy: Visualizing Physiological Heat Stress for Rickshaw Pullers in Dhaka",
+        'authors': "Masfiqur Rahaman, Shahad Shahriar Rahman, MD Sajid Mostafiz Noor, Khandaker Shadman Sakib Siddiquee, Mohammad Kamrul Hasan, Conan Minihan, Manas Satish Bedmutha, Shamil Zainuddin, Benjamin Smarr, A. B. M. Alim Al Islam, and Tauhidur Rahman",
+        'venue': "In Proceedings of the 2026 ACM International Symposium on Wearable Computers (ISWC 2026)",
+        'year': 2026,
+        'paper_pdf': '/assets/papers/RP_Interview_Paper___ISWC (15).pdf',
+        "image": "/assets/img/publications/rahman2026from.png"
+    },
     'luo2024toward': {
         'title': "Toward Foundation Model for Multivariate Wearable Sensing of Physiological Signals",
         'authors': "Yunfei Luo, Yuliang Chen, Asif Salekin, and Tauhidur Rahman",
