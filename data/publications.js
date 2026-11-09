@@ -1,6 +1,14 @@
 // slide, video, etc.
 var publication_list = {
     // 2026 papers
+    'doering2026structured': {
+        'title': "Structured Machine Theory of Mind from Agent Trajectories",
+        'authors': "Nigel F. Doering, Rahath Malladi, Arshia Sangwan, M Tanjid Hasan Tonmoy, Jacob Doan, David Danks, Tauhidur Rahman",
+        'venue': "Transactions on Machine Learning Research",
+        'year': 2026,
+        'paper_pdf': 'https://arxiv.org/abs/2611.07208',
+        "image": "/assets/img/publications/doering2026structured.png"
+    },
     'rahman2026from': {
         'title': "From Wearable Data to Risk Literacy: Visualizing Physiological Heat Stress for Rickshaw Pullers in Dhaka",
         'authors': "Masfiqur Rahaman, Shahad Shahriar Rahman, MD Sajid Mostafiz Noor, Khandaker Shadman Sakib Siddiquee, Mohammad Kamrul Hasan, Conan Minihan, Manas Satish Bedmutha, Shamil Zainuddin, Benjamin Smarr, A. B. M. Alim Al Islam, and Tauhidur Rahman",
